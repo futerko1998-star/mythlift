@@ -6,9 +6,9 @@ Raport: `quality/reviews/mythlift-audyt-naukowy/RAPORT_WERYFIKACJI_NAUKOWEJ.md` 
 ## Stan
 
 - Status: W TOKU
-- Ostatnia zakończona partia: brak (rozpoczęto weryfikację źródeł i twierdzeń – partia 0)
-- Ostatnie zakończone ID pytania: brak
-- Następny krok: partia 0 (weryfikacja źródeł i audyt CLAIM → SOURCE), potem KC-M1-01
+- Ostatnia zakończona partia: **0 (źródła + twierdzenia)** — zapisana w raporcie jako „PARTIA 0”
+- Ostatnie zakończone ID pytania: brak (pytania od partii 1)
+- Następny krok: partia 1 — KC-M1-01 (pierwsze ID: IT-M1-01-01)
 
 ## Kolejność partii
 
@@ -27,12 +27,28 @@ Raport: `quality/reviews/mythlift-audyt-naukowy/RAPORT_WERYFIKACJI_NAUKOWEJ.md` 
 | UNVERIFIED | 0 |
 | **Razem ocenionych pytań** | 0 / 244 |
 
-| Severity problemów | Liczba |
+| Severity problemów w pytaniach | Liczba |
 |---|---|
 | CRITICAL | 0 |
 | HIGH | 0 |
 | MEDIUM | 0 |
 | LOW | 0 |
+
+| Severity problemów w twierdzeniach i rekordach źródeł (partia 0) | Twierdzenia (C-xx) | Źródła (S-xx) |
+|---|---|---|
+| CRITICAL | 0 | 0 |
+| HIGH | 1 | 0 |
+| MEDIUM | 24 | 3 |
+| LOW | 19 | 5 |
+
+| Severity problemów w kartach pojęć i błędnych przekonaniach | Liczba |
+|---|---|
+| CRITICAL | 0 |
+| HIGH | 0 |
+| MEDIUM | 0 |
+| LOW | 0 |
+
+Źródła: 48/48 publikacji zweryfikowane częściowo (bibliografia + wyniki na poziomie abstraktu), 0/48 z pełnego tekstu.
 
 ## Ograniczenia środowiska
 
