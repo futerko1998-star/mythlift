@@ -12,7 +12,7 @@ Zapis stanu pracy (2026-09-27), aby można było kontynuować audyt w kolejnej s
   - `G4b_pain.md` – ból, DOMS, sygnały alarmowe.
   - `EXTRA.md` – potwierdzenia i dodatkowe (nowsze/przeciwne) dowody znalezione przez recenzenta głównego; mają pierwszeństwo przed oznaczeniami NIEZWERYFIKOWANE w G1/G2/G4a.
 - `partie_gotowe/` – partie audytu pytań ukończone i przejrzane, ale jeszcze niedopisane do raportu (dopisywane w kolejności partii).
-  - `PARTIA_22_KC-M5-04.md` – gotowa (12 pytań). Dopisać do raportu po partii 21.
+  - Nazwy plików: `PARTIA_nn_KC-*.md` (numer partii wg kolejności 1-22). Stan dopisywania: `stan.json` (`approved` = przejrzane, `appended` = dopisane do raportu).
 - `instrukcje/` – instrukcje użyte do pracy agentów pomocniczych (weryfikacja źródeł; audyt pytań wg kart pojęć).
 
 Ograniczenie: w sesji nie było dostępu do pełnych tekstów (pobieranie stron zablokowane), więc wszystkie weryfikacje źródeł są częściowe.
