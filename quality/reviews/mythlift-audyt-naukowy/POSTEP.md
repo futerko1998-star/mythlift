@@ -1,0 +1,39 @@
+# POSTĘP AUDYTU NAUKOWEGO MYTHLIFT
+
+Materiał: `weryfikacja_calosc.html` (eksport 2026-09-27: 244 pytania, 68 twierdzeń, 60 rekordów źródeł = 48 unikalnych publikacji wg DOI, 22 karty pojęć).
+Raport: `quality/reviews/mythlift-audyt-naukowy/RAPORT_WERYFIKACJI_NAUKOWEJ.md` (dopisywany partiami, bez nadpisywania wcześniejszych sekcji).
+
+## Stan
+
+- Status: W TOKU
+- Ostatnia zakończona partia: brak (rozpoczęto weryfikację źródeł i twierdzeń – partia 0)
+- Ostatnie zakończone ID pytania: brak
+- Następny krok: partia 0 (weryfikacja źródeł i audyt CLAIM → SOURCE), potem KC-M1-01
+
+## Kolejność partii
+
+0. Źródła + twierdzenia (fundament dla wszystkich pytań)
+1. KC-M1-01 … 7. KC-M1-07, 8. KC-M2-01 … 11. KC-M2-04, 12. KC-M3-01 … 15. KC-M3-04,
+16. KC-M4-01 … 18. KC-M4-03, 19. KC-M5-01 … 22. KC-M5-04, potem przebieg adwersaryjny nad PASS i podsumowanie.
+
+## Liczniki (narastająco)
+
+| Status pytań | Liczba |
+|---|---|
+| PASS | 0 |
+| PASS WITH NOTES | 0 |
+| REVISION REQUIRED | 0 |
+| FAIL | 0 |
+| UNVERIFIED | 0 |
+| **Razem ocenionych pytań** | 0 / 244 |
+
+| Severity problemów | Liczba |
+|---|---|
+| CRITICAL | 0 |
+| HIGH | 0 |
+| MEDIUM | 0 |
+| LOW | 0 |
+
+## Ograniczenia środowiska
+
+- W sesji audytu narzędzie pobierania stron (WebFetch/curl) było zablokowane dla wszystkich domen naukowych (PubMed, doi.org, PMC, Europe PMC, wydawcy). Dostępne było wyłącznie wyszukiwanie internetowe (wyniki i streszczenia). Żadne źródło nie mogło zostać zweryfikowane z pełnego tekstu w tej sesji; wszystkie weryfikacje są oznaczane jako częściowe.
