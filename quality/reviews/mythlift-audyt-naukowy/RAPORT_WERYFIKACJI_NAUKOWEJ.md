@@ -375,3 +375,571 @@ Każde pytanie, które powtarza treść twierdzenia obciążoną problemem, dzie
 - Źródła: 60 rekordów / 48 publikacji; bibliografia potwierdzona 48/48; pełny tekst 0/48; częściowo 48/48 (w tym 1 bez potwierdzenia kluczowej liczby); retrakcje 0; korekty 1; problemy rekordów: MEDIUM 3 (S-01, S-02, S-03), LOW 5 (S-04 – S-08).
 - Twierdzenia: 68; problemy: CRITICAL 0, HIGH 1 (C-25), MEDIUM 24 (C-01 – C-24), LOW 19 (C-26 – C-44). Twierdzenia z problemem ≥ MEDIUM: 24; tylko z uwagami LOW: 20; bez problemów: 24.
 - Najważniejsze wnioski dla audytu pytań: (1) bezpieczeństwo – triaż sygnałów alarmowych (C-25, KC-M5-04); (2) nadinterpretacje FFM → mięśnie (C-17, C-23, KC-M5-02); (3) warunek „blisko upadku” przy lekkich ciężarach (C-02, C-05); (4) progi objętości podawane jako ustalone (C-08, S-02, C-09); (5) nieaktualne „jedyne badanie” (C-11, C-13) i niezauważona korekta źródła (S-03); (6) interpretacja CI jako zmienności międzyosobniczej (C-17, C-19).
+
+---
+
+## UZUPEŁNIENIE PARTII 0 — nowe ustalenie na poziomie twierdzenia (wykryte podczas audytu partii 1)
+
+#### C-45 · MEDIUM · CL-TENS-003 · pola `applicability`, `evidence_summary`
+- **Source:** SRC-0109 (supports), SRC-0101 (context).
+- **OBECNIE:** applicability: „Brak badań, które sprawdzałyby wprost, czy wielkość pompy przewiduje przyrost.”; evidence_summary: „Pewność wstępna, bo żadne badanie nie sprawdziło wprost, czy większa pompa przy tej samej pracy oznacza większy przyrost.”
+- **PROBLEM:** Stwierdzenie o braku badań jest nieaktualne. Hirono i in. 2022 (J Strength Cond Res 36(2):359-364; 22 nietrenujących mężczyzn, prostowanie kolan 3×8 przy 80% 1RM, 3×/tydz., 6 tyg.) wykazali dodatnią korelację między ostrym obrzękiem mięśnia bezpośrednio po pierwszej sesji (USG) a przyrostem mięśnia po 6 tygodniach; podobny związek opisano w późniejszych małych badaniach (m.in. mięśnie strzałkowe, 2023; zginacze łokcia, Sport Sci Health 2025 – szczegóły NIEZWERYFIKOWANE). To badania korelacyjne u osób nietrenujących, z obrzękiem mierzonym ultrasonograficznie – nie pokazują, że pompa powoduje wzrost, ani że subiektywne odczucie pompy jest dobrym wskaźnikiem skuteczności serii. Rekomendacja „niezalecane” (nie oceniać serii po pompie) pozostaje obronna, ale jej uzasadnienie musi uwzględnić te dane (dowody nie są „żadne”, tylko słabe i niejednoznaczne co do przyczynowości).
+- **PROPONOWANA KOREKTA:** applicability: „Badano głównie: pośrednio (mechanizmy, lekkie ciężary, BFR) oraz w kilku małych badaniach korelacyjnych u osób nietrenujących, w których większy ostry obrzęk mięśnia (USG) po pierwszej sesji wiązał się z większym przyrostem.” evidence_summary: „…Małe badania korelacyjne sugerują umiarkowany związek ostrego obrzęku mięśnia z późniejszym przyrostem, ale nie wiadomo, czy to przyczyna, czy wskaźnik indywidualnej reakcji na trening, ani czy odczuwaną pompę da się tak wykorzystywać. Pewność wstępna.” Dodać Hirono 2022 jako źródło (rola: context/contradicts dla części „brak badań”).
+- **Pewność oceny:** wysoka co do istnienia i kierunku wyniku; umiarkowana co do wielkości efektu (ρ ≈ 0,44 wg streszczenia uzyskanego w partii 1).
+- **Weryfikacja:** [SEARCH https://pubmed.ncbi.nlm.nih.gov/31904714/ ; https://journals.lww.com/nsca-jscr/fulltext/2022/02000/relationship_between_muscle_swelling_and.10.aspx ; https://www.sciencedirect.com/science/article/abs/pii/S0966636223011931].
+- **Treści dziedziczące:** IT-M1-01-02, -04, -07 (MEDIUM), IT-M1-01-52, -71 (LOW), MC-100 (LOW) – patrz partia 1.
+
+Po uzupełnieniu liczniki partii 0 dla twierdzeń: CRITICAL 0, HIGH 1, MEDIUM 25, LOW 19.
+
+---
+
+## Partia 1: KC-M1-01 — Napięcie mechaniczne jako główny bodziec
+
+**Zakres partii:** pytania IT-M1-01-01 … IT-M1-01-71 (15: -01…-10, -51, -52, -61, -62, -71), twierdzenia: CL-TENS-001, CL-TENS-002, CL-TENS-003, CL-REPS-001, CL-REPS-003, CL-DOMS-001, CL-DOMS-002, CL-PROG-001, CL-REST-003, źródła: SRC-0100, SRC-0101, SRC-0102, SRC-0103, SRC-0108, SRC-0109, SRC-0110, SRC-0111, SRC-0208, SRC-0210. Publikacje spoza bazy, które wykorzystano w ocenie: Hirono i in. 2022 (JSCR; [SEARCH] w tej partii), Rønnestad i in. 2011 oraz West i in. 2010 (hormony; [SEARCH] wg CLAIMS_AUDIT C-01 i EXTRA), Lasevicius i in. 2022 ([SEARCH] wg EXTRA), Morton i in. 2019 (J Physiol) oraz Nunes i in. 2021 (kolejność ćwiczeń), oba tylko [WIEDZA].
+
+**Metodyka:** przeczytałem w całości każde pytanie (PL i EN), kartę, MC-100/101/109 oraz MC-103/104/106/206 powiązane z opcjami, 9 twierdzeń, CLAIMS_AUDIT (C-01, C-02, C-03, C-04, C-06, C-26, C-27, C-32), dossier G1 i EXTRA. Wykonałem 2 zapytania WebSearch (pompa/obrzęk a hipertrofia). Pełnych tekstów nie czytałem (WebFetch zablokowany).
+
+### Tabela statusów
+| ID | STATUS | SEVERITY | CLAIMS | SOURCES | KRÓTKIE UZASADNIENIE |
+|---|---|---|---|---|---|
+| IT-M1-01-01 | PASS WITH NOTES | LOW | CL-TENS-001 | SRC-0109, SRC-0103, SRC-0101 | Klucz (napięcie mechaniczne) poprawny, distraktory jednoznacznie błędne, pewność opisana trafnie. W W2 „lub blisko niego” dziedziczy C-02 (P01). |
+| IT-M1-01-02 | REVISION REQUIRED | MEDIUM | CL-TENS-003, CL-TENS-001 | SRC-0109, SRC-0101, SRC-0103 | Klucz A/C/E jest obronialny. Zdania „nikt tego nie sprawdził” i „wstępne dane nie potwierdzają” są sprzeczne z badaniami korelacyjnymi obrzęk → hipertrofia (Hirono 2022) (P02). Opcja E i determinanty pompy nie mają źródła (P03). |
+| IT-M1-01-03 | REVISION REQUIRED | MEDIUM | CL-TENS-002, CL-TENS-001 | SRC-0103, SRC-0109, SRC-0101 | Klucz „mit” jest obronialny. Treść dziedziczy C-01: opisuje radę „przysiady dla hormonów”, ale pomija eksperymenty West 2010 (bez efektu) i Rønnestad 2011 (z efektem) (P04). |
+| IT-M1-01-04 | REVISION REQUIRED | MEDIUM | CL-TENS-003, CL-TENS-001 | SRC-0109, SRC-0101, SRC-0103 | Klucz C poprawny. W1.expert i W2 („brak badań, w których … pompa przewidywałaby większy przyrost”) są wprost sprzeczne z Hirono 2022 (P05). Feedback D dziedziczy C-02 (P06). |
+| IT-M1-01-05 | REVISION REQUIRED | MEDIUM | CL-REPS-001, CL-TENS-001 | SRC-0100, SRC-0101, SRC-0102, SRC-0103, SRC-0109 | Kontekst „blisko upadku” przy 25-30 powt. i klucz „podobny przyrost” dziedziczą C-02, a W1.expert przypisuje metaanalizom „lub blisko niego” (P07). Średnia grupowa przeniesiona na dwie konkretne osoby (P08). Zakres „6-12 tyg.” i opis populacji niezweryfikowane (P09). |
+| IT-M1-01-06 | REVISION REQUIRED | MEDIUM | CL-TENS-001, CL-REPS-001 | SRC-0100, SRC-0101, SRC-0102, SRC-0103, SRC-0109 | Klucz D to dominujące wyjaśnienie, ale żadne twierdzenie ani źródło w bazie go nie dokumentuje (P10). Hipoteza siła–prędkość („napięcie na włókno rośnie”) podana jako fakt (P11). Przesłanka „blisko upadku” w stemie: C-02 (P12). |
+| IT-M1-01-07 | REVISION REQUIRED | MEDIUM | CL-TENS-001, CL-TENS-003, CL-DOMS-001, CL-PROG-001 | SRC-0100, SRC-0101, SRC-0103, SRC-0108, SRC-0109, SRC-0110, SRC-0111 | Klucz A+C obronialny (pytanie porównawcze). W2 „rola pompy jako wskaźnika nie była badana wprost” jest błędne (P13). Superlatyw „najlepsze wskaźniki” nie ma źródła (P14). Mechanizm w feedbacku E nie pasuje do ciężkich serii (P15). |
+| IT-M1-01-08 | REVISION REQUIRED | MEDIUM | CL-TENS-001, CL-TENS-002, CL-DOMS-001 | SRC-0101, SRC-0103, SRC-0109, SRC-0110, SRC-0111 | Klucz C poprawny. „Jeśli ciężary/powtórzenia rosną, trening działa” pomija warunek „przy podobnym wysiłku”, choć zmiana kryterium kończenia serii sama podnosi liczbę powtórzeń; do tego progres to nie dowód przerostu (P16). Brak powiązania z CL-EFF-001 (P17). Nieudokumentowane porównania i mechanizm (P18). |
+| IT-M1-01-09 | REVISION REQUIRED | MEDIUM | CL-TENS-002, CL-TENS-001, CL-REST-003 | SRC-0101, SRC-0103, SRC-0109, SRC-0208, SRC-0210 | Klucz B poprawny. „Hormony nic nie dodają” i „nie znajduje potwierdzenia” pomijają eksperyment o dokładnie takim układzie (Rønnestad 2011) (P19). „Wystarczy przestawić kolejność” nie ma źródła, a metaanaliza [WIEDZA] nie pokazuje wpływu kolejności na hipertrofię (P20). |
+| IT-M1-01-10 | PASS WITH NOTES | LOW | CL-TENS-001, CL-REPS-001, CL-REPS-003 | SRC-0100, SRC-0101, SRC-0102, SRC-0103, SRC-0109 | Scenariusz (25-30 powt. do upadku) wprost wspierany, klucz D poprawny. W0/W1 rozszerzają wniosek na „blisko upadku” (P21). Próg „35-40 powt.” i zalecenie praktyczne nie mają źródła (P22). |
+| IT-M1-01-51 | REVISION REQUIRED | MEDIUM | CL-TENS-002, CL-TENS-001 | SRC-0101, SRC-0103, SRC-0109 | Klucz „mit” obronialny według całości korpusu. Teza ze stemu (ramiona po nogach) była testowana eksperymentalnie z wynikami sprzecznymi (West 2010 vs Rønnestad 2011), a treść cytuje tylko korelacje i formułuje W0 kategorycznie (P23). |
+| IT-M1-01-52 | PASS WITH NOTES | LOW | CL-TENS-001, CL-TENS-003 | SRC-0101, SRC-0103, SRC-0109 | Klucz „fakt” wspierany (ciężkie serie blisko upadku). W1.expert: z „brak badań” wynika „pełnowartościowe” (non sequitur) i pominięto Hirono 2022 (P24). Followup C i W2: C-02 (P25). |
+| IT-M1-01-61 | REVISION REQUIRED | MEDIUM | CL-TENS-002, CL-TENS-001 | SRC-0101, SRC-0103, SRC-0109 | Klucz A poprawny. W2: „badania, w których mierzono hormony i przyrost, nie potwierdziły” w kontekście rady „przysiady przed ramionami”, bez wzmianki o Rønnestad 2011 (C-01) (P26). |
+| IT-M1-01-62 | PASS WITH NOTES | LOW | CL-TENS-001, CL-DOMS-002 | SRC-0101, SRC-0103, SRC-0109, SRC-0110, SRC-0111 | Klucz B poprawny, W2 uczciwie mówi o jednym małym badaniu. Feedback A („Badania pokazują”) i W1.expert uogólniają Damas 2016 (n=10, nietrenujący; C-26) (P27). |
+| IT-M1-01-71 | REVISION REQUIRED | MEDIUM | CL-TENS-001, CL-DOMS-001 | SRC-0101, SRC-0103, SRC-0109, SRC-0110, SRC-0111 | Klucz B najlepszy z opcji. „Dziennik najlepszym wskaźnikiem” i „szybciej pokazują, czy trening działa” to nieudokumentowany overclaim (P28). Populacja badania hormonów błędnie opisana: w badaniu byli tylko mężczyźni, Ola jest kobietą (P29). Pompa: pominięto Hirono 2022 (P30). Wniosek o zakwasach silniejszy niż dane (C-04) (P31). |
+
+### Szczegóły problemów
+
+#### M1-01-P01 · LOW · IT-M1-01-01 · pole `localizations.pl.w2` (i `en.w2`)
+- **Claim / source:** CL-TENS-001 (pośrednio CL-REPS-001), SRC-0101, SRC-0103
+- **OBECNIE:** „Dlatego przy seriach do upadku lub blisko niego szeroki zakres ciężarów daje podobny przyrost.”
+- **PROBLEM:** Problem dziedziczony z C-02. Główne dowody (Schoenfeld 2017, Morton 2016) dotyczą serii **do** upadku. Przy ok. 30% 1RM seria przerwana przed upadkiem dawała mniejszą hipertrofię (Lasevicius 2022). Klucza to nie dotyczy.
+- **PROPONOWANA KOREKTA:** „Dlatego w badaniach z seriami do upadku podobny przyrost dawał szeroki zakres ciężarów, od ok. 30% ciężaru maksymalnego. Przy lekkich ciężarach seria musi się kończyć na upadku lub tuż przed nim.” (analogicznie EN)
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-02; EXTRA (Lasevicius 2022, [SEARCH] https://pubmed.ncbi.nlm.nih.gov/31895290/); G1 (SRC-0101: kryterium „wszystkie serie do upadku”).
+
+#### M1-01-P02 · MEDIUM · IT-M1-01-02 · pola `localizations.pl.option_texts.B.feedback`, `pl.w1.simple`, `pl.w1.expert`, `pl.w2` (i analogiczne EN)
+- **Claim / source:** CL-TENS-003 (SRC-0109, SRC-0101). Problem dziedziczony z twierdzenia (nowe ustalenie, patrz sekcja „Uwaga dla audytu twierdzeń”).
+- **OBECNIE:** w1.simple: „Wstępne dane nie potwierdzają, że większa pompa oznacza większy przyrost, choć wprost nikt tego nie sprawdził.” w1.expert: „Brak badań, w których przy tej samej pracy i wysiłku większa pompa dawałaby większy przyrost”. w2: „Pewność tego wniosku jest ograniczona, bo nikt nie sprawdził wprost, czy większa pompa przy tej samej pracy daje większy przyrost.” feedback B: „Brak jednak badań pokazujących, że większa pompa przy tej samej pracy daje większy przyrost.”
+- **PROBLEM:** Twierdzenie „nikt nie sprawdził” jest fałszywe. Hirono i in. (J Strength Cond Res 2022, DOI 10.1519/JSC.0000000000003478) zbadali 22 nietrenujących młodych mężczyzn: prostowanie kolan 3×8 przy 80% 1RM, 3×/tydz., 6 tyg. Ostry wzrost grubości mięśnia po pierwszej sesji wyniósł 8,3±3,2% (obrzęk, czyli obiektywny odpowiednik pompy), a przyrost po 6 tyg. 2,9±2,6%. Korelacja była dodatnia i istotna (ρ=0,443; p=0,039). Przy **tym samym protokole** osoby z większym obrzękiem zyskały więcej. Badanie z 2023 r. na mięśniach strzałkowych podaje podobny związek (szczegóły NIEZWERYFIKOWANE). „Wstępne dane nie potwierdzają” odwraca więc kierunek dostępnych, choć słabych danych. Ograniczenia: dane są korelacyjne, próba mała, uczestnicy nietrenujący, badano jeden mięsień. Obrzęk może być tylko znacznikiem indywidualnej reakcji. Główny przekaz (pompa nie nadaje się do porównywania serii, bo serie lekkie i ciężkie do upadku dają podobny przyrost mimo różnej pompy) i klucz pozostają poprawne.
+- **PROPONOWANA KOREKTA:** w1.simple: „Pompa to przejściowe nabrzmienie mięśnia od krwi i płynów, które mija wkrótce po treningu. W dwóch małych badaniach u osób początkujących ci, u których mięsień bardziej nabrzmiewał po pierwszym treningu, zyskali potem nieco więcej mięśni. Nie wiadomo jednak, czy pompa była przyczyną, czy tylko oznaką lepszej reakcji na trening. Serie lekkie i ciężkie do upadku dają podobny przyrost mimo zupełnie innej pompy, więc do porównywania serii pompa się nie nadaje.” w2 (ostatnie zdanie): „Pewność jest ograniczona: w dwóch małych badaniach korelacyjnych u nietrenujących większy obrzęk mięśnia po pierwszym treningu wiązał się z nieco większym przyrostem po kilku tygodniach, ale nikt nie sprawdził, czy celowe zwiększanie pompy przy tej samej pracy zwiększa przyrost.” Expert i feedback B analogicznie („brak badań, w których celowe zwiększanie pompy…; w badaniach korelacyjnych obrzęk tylko umiarkowanie wiązał się z przyrostem”). Analogicznie EN.
+- **Pewność oceny:** wysoka (istnienie i wynik Hirono 2022); umiarkowana (badanie 2023 znam tylko z tytułu i streszczenia)
+- **Weryfikacja:** WebSearch [SEARCH]: https://journals.lww.com/nsca-jscr/fulltext/2022/02000/relationship_between_muscle_swelling_and.10.aspx ; https://www.semanticscholar.org/paper/Relationship-Between-Muscle-Swelling-and-Induced-by-Hirono-Ikezoe/dc0b5fa2aa531241c97ce0f86c39260b7348be0d ; https://www.sciencedirect.com/science/article/abs/pii/S0966636223011931 . Pełnych tekstów nie czytałem.
+
+#### M1-01-P03 · LOW · IT-M1-01-02 · pola `localizations.pl.option_texts.E` (klucz) + feedback, `pl.w2` (i EN)
+- **Claim / source:** brak twierdzenia. CL-REST-003 wspomina o pompie tylko w evidence_summary, a jego źródła tego nie badają (C-32).
+- **OBECNIE:** E: „Zwykle jest silniejsza przy wielu powtórzeniach i krótkich przerwach”. w2: „Efekt jest najsilniejszy przy wielu powtórzeniach i krótkich przerwach”, „mimo że pompa jest w nich bardzo różna”.
+- **PROBLEM:** Opcja oznaczona jako poprawna i zdania w W2 o determinantach pompy nie mają źródła w bazie. [WIEDZA]: większa akumulacja metabolitów przy wysokich powtórzeniach i krótkich przerwach jest dobrze znana, więc klucz („zwykle”) jest obronialny. „Najsilniejszy” jest jednak mocniejsze niż „zwykle silniejszy”, a silny obrzęk daje też np. ograniczenie przepływu krwi przy małym ciężarze. Różnic pompy między seriami lekkimi i ciężkimi w metaanalizach nie mierzono.
+- **PROPONOWANA KOREKTA:** w2: „Efekt jest zwykle silniejszy przy wielu powtórzeniach i krótkich przerwach (a także przy ograniczeniu przepływu krwi) i mija wkrótce po treningu.” Dodać do bazy źródło o ostrym obrzęku i metabolitach, np. badanie porównujące obrzęk przy różnych protokołach. Analogicznie EN.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA]; CLAIMS_AUDIT C-32.
+
+#### M1-01-P04 · MEDIUM · IT-M1-01-03 · pola `localizations.pl.main_feedback.depends`, `pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** CL-TENS-002 (SRC-0103, SRC-0109). Problem dziedziczony z C-01.
+- **OBECNIE:** w2: „…stąd rady, by skracać przerwy albo zaczynać trening od przysiadów „dla hormonów”. W badaniu z randomizacją 49 trenujących mężczyzn (…) Wielkość skoku hormonów po treningu nie korelowała ani z przyrostem mięśni, ani z przyrostem siły. (…) Zastrzeżenia: dane pochodzą z niewielu badań, głównie u młodych mężczyzn, a analiza hormonów opiera się na korelacjach.” depends: „Niezależnie od sposobu wielkość tego krótkiego skoku nie przekładała się jednak na przyrost.”
+- **PROBLEM:** Rada „przysiady przed treningiem dla hormonów” była testowana eksperymentalnie. West i in. 2010 (J Appl Physiol): u nietrenujących mężczyzn podniesienie hormonów ćwiczeniami nóg nie zwiększyło hipertrofii zginaczy łokcia, co wspiera mit. Rønnestad i in. 2011 (Eur J Appl Physiol): ćwiczenia nóg przed ćwiczeniami ramion dały większy przyrost przekroju zginaczy łokcia (w części mięśnia), co przeczy mitowi. Ten wynik kwestionowano, np. Phillips 2012. Pytanie przedstawia tylko dowody korelacyjne, a zdanie „niezależnie od sposobu … nie przekładała się” jest kategoryczne. Etykieta „mit” jest uzasadniona całością korpusu, ale treść nie pokazuje obu stron.
+- **PROPONOWANA KOREKTA:** Do w2 dopisać: „Pomysł sprawdzono też wprost u nietrenujących mężczyzn. W jednym badaniu trening ramion po ćwiczeniach nóg (z większym wyrzutem hormonów) nie zwiększył przyrostu ramion, w drugim zwiększył go w części mięśnia, ale ten wynik jest kwestionowany. Całość dowodów nie wspiera układania treningu pod wyrzut hormonów, choć pewność jest umiarkowana.” depends: „…wielkość tego krótkiego skoku w większości badań nie przekładała się na przyrost.” W w1.expert dopisać: „Eksperymenty, w których zmieniano wyrzut hormonów, dały wyniki niejednoznaczne.” Analogicznie EN.
+- **Pewność oceny:** wysoka (istnienie i kierunek badań); umiarkowana (szczegóły Rønnestad 2011, [WIEDZA])
+- **Weryfikacja:** CLAIMS_AUDIT C-01 ([SEARCH] https://link.springer.com/article/10.1007/s00421-011-1860-0); EXTRA („Hormony – dowody sprzeczne”).
+
+#### M1-01-P05 · MEDIUM · IT-M1-01-04 · pola `localizations.pl.option_texts.A.feedback`, `pl.option_texts.C.feedback`, `pl.w1.simple`, `pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** CL-TENS-003 (SRC-0109, SRC-0101). IT-M1-01-04 jest pytaniem referencyjnym tego twierdzenia. Problem dziedziczony.
+- **OBECNIE:** w1.expert: „Brak badań, w których przy tej samej pracy i wysiłku większa pompa przewidywałaby większy przyrost, więc wniosek jest wstępny.” w2: „Nikt nie sprawdził wprost, czy większa pompa przy tym samym wysiłku przewiduje większy przyrost, więc pewność jest ograniczona.” w1.simple: „Nikt nie wykazał wprost, że większa pompa przy tej samej pracy daje większy przyrost.” A: „…i brak badań, w których większa pompa dawałaby większy przyrost.” C: „Wstępne dane nie potwierdzają ich jako miary skuteczności.”
+- **PROBLEM:** Hirono 2022 wprost przeczy tym zdaniom: ostry obrzęk po pierwszej sesji przy tym samym protokole **przewidywał** hipertrofię po 6 tyg. (ρ=0,44). Klucz C pozostaje poprawny. Korelacja rzędu 0,44 wyjaśnia ok. 20% zmienności w małej próbie nietrenujących i nie czyni pompy wiarygodną miarą pojedynczej serii. Między protokołami (seria lekka vs ciężka do upadku) różna pompa nie przekłada się na różny przyrost. Wyjaśnienia są więc częściowo błędne, a klucz nie.
+- **PROPONOWANA KOREKTA:** w1.expert: „Rola stresu metabolicznego we wzroście opiera się na dowodach pośrednich. W dwóch małych badaniach korelacyjnych u nietrenujących większy obrzęk mięśnia po pierwszym treningu umiarkowanie wiązał się z większym przyrostem po kilku tygodniach; nie wiadomo, czy przyczynowo. Serie ciężkie i lekkie do upadku dają jednak podobny przyrost mimo zupełnie innej pompy, więc pompa nie nadaje się do porównywania skuteczności serii. Wniosek jest wstępny.” w2 analogicznie. A: „…a nie powiększanie się włókien. W małych badaniach obrzęk po treningu tylko umiarkowanie wiązał się z późniejszym przyrostem, a serie z małą pompą budują mięśnie podobnie.” Analogicznie EN.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** WebSearch [SEARCH], adresy jak w P02.
+
+#### M1-01-P06 · LOW · IT-M1-01-04 · pole `localizations.pl.option_texts.D.feedback` (i EN)
+- **Claim / source:** CL-REPS-001 (C-02)
+- **OBECNIE:** „…przy seriach blisko upadku lżejsze ciężary z wieloma powtórzeniami budują mięśnie podobnie jak cięższe.”
+- **PROBLEM:** Problem dziedziczony z C-02 (patrz P01).
+- **PROPONOWANA KOREKTA:** „…przy seriach do upadku lub tuż przed nim lżejsze ciężary…” (EN: „with sets taken to or just short of failure”).
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-02; EXTRA (Lasevicius 2022).
+
+#### M1-01-P07 · MEDIUM · IT-M1-01-05 · pola `localizations.pl.context`, `pl.option_texts.A.feedback`, `pl.option_texts.B.feedback`, `pl.option_texts.C.feedback`, `pl.w0`, `pl.w1.simple`, `pl.w1.expert` (i EN)
+- **Claim / source:** CL-REPS-001 (SRC-0101, SRC-0102, SRC-0103, SRC-0100). Problem dziedziczony z C-02 (MEDIUM).
+- **OBECNIE:** context: „Każdą serię kończą blisko upadku. Jedna używa ciężaru, który pozwala na 25-30 powtórzeń…”. B: „Gdy serie kończą się blisko upadku, lżejsze i cięższe ciężary dają podobny przyrost mięśni.” w1.expert: „Metaanalizy pokazują podobną hipertrofię przy obciążeniach od około 30% do ponad 60% 1RM, jeśli serie kończą się na upadku lub blisko niego.”
+- **PROBLEM:** Scenariusz dotyczy dokładnie sytuacji, w której dowody są najsłabsze: lekki ciężar (25-30 powt.) i seria kończona „blisko”, a nie „do” upadku. Metaanaliza Schoenfeld 2017 obejmowała wyłącznie serie do chwilowego upadku. Lasevicius 2022 pokazał, że przy 30% 1RM seria przerwana przed upadkiem daje mniejszy przyrost. Przy 25-30 powtórzeniach ocena zapasu jest najmniej trafna (Halperin 2022; samo pytanie przyznaje to w W2). Zdanie w expert przypisuje metaanalizom warunek „lub blisko niego”, którego one nie badały. Klucz B pozostaje najlepszą odpowiedzią, ale opiera się na ekstrapolacji, której treść nie sygnalizuje.
+- **PROPONOWANA KOREKTA:** context: „Każdą serię kończą na upadku mięśniowym lub najwyżej jedno powtórzenie przed nim.” B: „Tak. Gdy serie kończą się na upadku lub tuż przed nim, lżejsze i cięższe ciężary dają w badaniach podobny przyrost mięśni.” w1.expert: „Metaanaliza badań z seriami do upadku pokazuje podobną hipertrofię przy obciążeniach od ok. 30% do ponad 60% 1RM. Przy lekkich ciężarach seria przerwana wyraźnie przed upadkiem dawała mniejszy przyrost. Dla obciążeń poniżej ok. 30% 1RM danych jest mało.” A, C, w0 i w1.simple analogicznie („do upadku lub tuż przed nim”). Analogicznie EN.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-02, C-03; G1 (SRC-0101); EXTRA (Lasevicius 2022 [SEARCH], Halperin 2022 [SEARCH]).
+
+#### M1-01-P08 · LOW · IT-M1-01-05 · pola `localizations.pl.option_texts.B.text`, `pl.w1.simple` (i EN)
+- **Claim / source:** CL-REPS-001
+- **OBECNIE:** „Podobnego przyrostu mięśni u obu osób”.
+- **PROBLEM:** Średnia grupowa przeniesiona na dwie konkretne osoby. Indywidualna zmienność odpowiedzi hipertroficznej jest duża [WIEDZA, np. Hubal 2005], więc dwie osoby mogą urosnąć bardzo różnie niezależnie od ciężaru. Klucz jest najlepszy, bo stem mówi o oczekiwaniu („najprawdopodobniej”), ale sformułowanie sugeruje przewidywanie indywidualne.
+- **PROPONOWANA KOREKTA:** B: „Brak wyraźnej przewagi któregokolwiek ciężaru: średnio przyrost byłby podobny”. Można też zmienić kontekst na „dwie grupy”. Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** [WIEDZA].
+
+#### M1-01-P09 · LOW · IT-M1-01-05 · pole `localizations.pl.w2` (i EN)
+- **Claim / source:** CL-REPS-001 (applicability)
+- **OBECNIE:** „Obejmowały młodych dorosłych obu płci, nietrenujących i trenujących, w programach trwających od 6 do 12 tygodni.”
+- **PROBLEM:** Twierdzenie mówi „badano głównie”, a pytanie podaje opis jako wyczerpujący. Górna granica 12 tyg. jest NIEZWERYFIKOWANA (G1: potwierdzono tylko kryterium ≥6 tyg.). [WIEDZA, niska pewność]: część badań porównujących obciążenia dotyczyła osób starszych lub trwała dłużej niż 12 tyg.
+- **PROPONOWANA KOREKTA:** „Obejmowały głównie młodych dorosłych obu płci, nietrenujących i trenujących, najczęściej w programach kilkutygodniowych (zwykle 6-12 tygodni).” Analogicznie EN.
+- **Pewność oceny:** niska-umiarkowana. **Weryfikacja:** G1 (SRC-0101, „6-12 tygodni → NIEZWERYFIKOWANE”).
+
+#### M1-01-P10 · MEDIUM · IT-M1-01-06 · pola `claims` (metadane), klucz `D` + `localizations.pl.option_texts.D.feedback`, `pl.w0`, `pl.w1.simple` (i EN)
+- **Claim / source:** CL-TENS-001, CL-REPS-001. Żadne z nich nie zawiera mechanizmu rekrutacji. SRC-0109 dotyczy mechanosensorów, SRC-0101 i SRC-0103 wyniku, nie mechanizmu.
+- **OBECNIE:** D: „Pod koniec serii pracuje coraz więcej włókien, także największych, pod dużym napięciem”. Feedback: „Gdy pierwsze włókna się męczą, organizm włącza kolejne, aż pracują także największe…”
+- **PROBLEM:** Główna teza pytania typu „dlaczego” (rekrutacja jednostek wysokoprogowych wymuszona zmęczeniem wyjaśnia podobną hipertrofię) nie ma twierdzenia ani źródła w bazie. [WIEDZA]: to dominujące wyjaśnienie. Wspiera je zasada Hennemana i Morton i in. 2019 (J Physiol 597(17):4601-4613): podobne zużycie glikogenu we włóknach typu I i II przy 30% i 80% 1RM do upadku. Pomiary EMG (niższa amplituda przy lekkich ciężarach) są natomiast sporne. Opcja D jest najlepsza, a hedging („tak wyjaśnia się to najczęściej”) trafny, ale fundament klucza jest nieudokumentowany.
+- **PROPONOWANA KOREKTA:** Dodać twierdzenie, np. CL-TENS-004: „Przy seriach do upadku z lekkim ciężarem zmęczenie prowadzi do stopniowej rekrutacji jednostek motorycznych wysokoprogowych; uważa się to za główne wyjaśnienie podobnej hipertrofii przy różnych obciążeniach (dowody pośrednie: EMG, zużycie glikogenu we włóknach typu II).” Certainty C. Źródła: Morton 2019 (J Physiol) i przegląd krytyczny interpretacji EMG. Podpiąć je pod IT-M1-01-06 (i IT-M1-01-10, IT-M1-01-01).
+- **Pewność oceny:** umiarkowana (dane bibliograficzne Morton 2019 tylko [WIEDZA], do potwierdzenia)
+- **Weryfikacja:** przegląd twierdzeń i SRC w bazie; [WIEDZA].
+
+#### M1-01-P11 · MEDIUM · IT-M1-01-06 · pola `localizations.pl.w1.expert`, `pl.w2`, `pl.w1.apply` (i EN)
+- **Claim / source:** brak (patrz P10)
+- **OBECNIE:** expert: „Zwolnienie skurczu blisko upadku zwiększa, zgodnie z zależnością siła-prędkość, napięcie przypadające na włókno.” w2: „Do tego ruch mimowolnie zwalnia, a wolniej skracające się włókno może wytworzyć większą siłę. Dlatego ostatnie powtórzenia lekkiej serii dają podobny bodziec jak powtórzenia ciężkiej serii…” apply: „Przy lżejszym ciężarze najcenniejsze są ostatnie powtórzenia…”
+- **PROBLEM:** Hipoteza mechanistyczna (model siła–prędkość i „efektywne powtórzenia”) jest podana jako fakt. Napięcia przypadającego na włókno u ludzi pod koniec serii nie zmierzono. Zmęczone włókno ma przy tym zmniejszoną zdolność generowania siły (metabolity, spadek wrażliwości na Ca²⁺) [WIEDZA], więc nie wiadomo, czy napięcie na włókno jest „podobne” jak w ciężkiej serii. Zastrzeżenie w W2 dotyczy tylko EMG, a nie tej części. Wniosek praktyczny (lekka seria działa, gdy dochodzi do upadku) ma dobre wsparcie w wynikach badań, ale nie w tym mechanizmie.
+- **PROPONOWANA KOREKTA:** expert: „Dodatkowa hipoteza głosi, że zwolnienie skurczu blisko upadku zwiększa, zgodnie z zależnością siła-prędkość, napięcie przypadające na włókno; nie zostało to zmierzone u ludzi.” w2: „Do tego ruch mimowolnie zwalnia. Według jednej z hipotez wolniej skracające się włókno może wtedy wytworzyć większą siłę, choć zmęczone włókno ma też mniejsze możliwości. Pewne jest to, że w badaniach lekkie serie do upadku dawały podobny przyrost jak ciężkie.” apply: „Przy lżejszym ciężarze kończ serię dopiero wtedy, gdy ruch wyraźnie zwalnia mimo pełnego wysiłku: w badaniach lekkie serie działały, gdy dochodziły do upadku.” Analogicznie EN.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA] (fizjologia zmęczenia mięśnia; brak bezpośrednich pomiarów napięcia na włókno w treningu u ludzi).
+
+#### M1-01-P12 · LOW · IT-M1-01-06 · pole `localizations.pl.stem` (i EN)
+- **Claim / source:** CL-REPS-001 (C-02)
+- **OBECNIE:** „Dlaczego przy seriach kończonych blisko upadku lżejszy ciężar może budować mięśnie podobnie jak cięższy?”
+- **PROBLEM:** Przesłanka dziedziczy C-02. Łagodzi ją słowo „może”.
+- **PROPONOWANA KOREKTA:** „…przy seriach kończonych na upadku lub tuż przed nim…” (EN analogicznie).
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-02.
+
+#### M1-01-P13 · MEDIUM · IT-M1-01-07 · pole `localizations.pl.w2` (i `en.w2`)
+- **Claim / source:** CL-TENS-003 (problem dziedziczony; patrz P02)
+- **OBECNIE:** „Rola pompy jako wskaźnika nie była badana wprost, więc ta część wniosku jest wstępna.”
+- **PROBLEM:** Zdanie jest błędne w świetle Hirono 2022 (obrzęk po pierwszej sesji korelował z hipertrofią po 6 tyg., ρ=0,44) i badania z 2023 r. Klucza to nie zmienia: pytanie jest porównawcze, a pompa pozostaje słabszym wskaźnikiem niż bliskość upadku i progres.
+- **PROPONOWANA KOREKTA:** „Pompę jako wskaźnik badano tylko w dwóch małych badaniach korelacyjnych u początkujących: większy obrzęk mięśnia po pierwszym treningu umiarkowanie wiązał się z większym przyrostem. Serie lekkie i ciężkie do upadku dają jednak podobny przyrost mimo zupełnie innej pompy, więc do porównywania serii się ona nie nadaje. Ta część wniosku jest wstępna.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** WebSearch [SEARCH], adresy jak w P02.
+
+#### M1-01-P14 · LOW · IT-M1-01-07 · pola `localizations.pl.w2`, `pl.option_texts.C.feedback` (i EN)
+- **Claim / source:** CL-PROG-001 dotyczy potrzeby progresji, a nie jej wartości diagnostycznej dla hipertrofii. Brak twierdzenia.
+- **OBECNIE:** w2: „Najlepsze z nich to bliskość upadku i postęp.”
+- **PROBLEM:** Superlatyw nie ma źródła. Wzrost ciężaru i powtórzeń odzwierciedla też adaptacje nerwowe i technikę, zwłaszcza na początku; związek między przyrostem siły a przyrostem mięśni jest umiarkowany [WIEDZA]. W1.expert trafnie nazywa to „przybliżeniami”.
+- **PROPONOWANA KOREKTA:** „Najbardziej praktyczne z nich to bliskość upadku i postęp, choć postęp w ciężarach i powtórzeniach odzwierciedla też lepszą technikę i pracę układu nerwowego, a nie tylko wzrost mięśni.” Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** [WIEDZA]; CLAIMS_AUDIT C-06 (kontekst).
+
+#### M1-01-P15 · LOW · IT-M1-01-07 · pole `localizations.pl.option_texts.E.feedback` (i EN); `claims`
+- **Claim / source:** brak CL-EFF-001 w `claims`
+- **OBECNIE:** „Seria przerwana daleko od upadku daje jednak prawdopodobnie słabszy bodziec, bo duże napięcie nie obejmuje w niej wielu włókien.”
+- **PROBLEM:** Uzasadnienie mechanistyczne pasuje do serii lekkich i umiarkowanych. W ciężkiej serii duże jednostki pracują od pierwszego powtórzenia (tak pisze IT-M1-01-06 w W2), więc wewnątrz modułu jest niespójność. Wniosek („prawdopodobnie słabszy bodziec”) ma natomiast wsparcie empiryczne: Robinson 2024 (CL-EFF-001), którego nie podpięto.
+- **PROPONOWANA KOREKTA:** „Seria przerwana daleko od upadku daje jednak prawdopodobnie słabszy bodziec: w metaanalizie przyrost był tym mniejszy, im więcej powtórzeń zostawało w zapasie, zwłaszcza przy lżejszych ciężarach.” Dodać CL-EFF-001 do `claims`. Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** CLAIMS_AUDIT (CL-EFF-001, SRC-0105); EXTRA (Robinson 2024 [SEARCH]).
+
+#### M1-01-P16 · MEDIUM · IT-M1-01-08 · pola `localizations.pl.w1.simple`, `pl.w2` (i EN)
+- **Claim / source:** brak twierdzenia (CL-PROG-001 niepodpięty i dotyczy czego innego)
+- **OBECNIE:** w1.simple: „Jeśli z czasem rosną, trening działa, nawet gdy pompa jest mniejsza.” w2: „Jeśli po kilku tygodniach ciężary lub powtórzenia zaczną rosnąć, trening działa, nawet gdy pompa będzie mniejsza niż wcześniej.”
+- **PROBLEM:** (1) Wskaźnik jest zaburzony przez samą interwencję. Kuba przerywał serie z kilkoma powtórzeniami zapasu, więc po przejściu na serie blisko upadku liczba powtórzeń wzrośnie od razu z powodu większego wysiłku, a nie adaptacji. Brakuje warunku „przy podobnym wysiłku”, który IT-M1-01-07 i IT-M1-01-71 zawierają. (2) Wzrost ciężaru i powtórzeń w rozpiętkach nie dowodzi przyrostu mięśni klatki (technika, adaptacje nerwowe), a „trening działa” odnosi się tu do celu Kuby, czyli wzrostu klatki. Zdanie jest mocne i nieudokumentowane.
+- **PROPONOWANA KOREKTA:** w2: „Pierwszy skok liczby powtórzeń po tej zmianie wynika głównie z większego wysiłku. Jeśli później, przy podobnym wysiłku (tym samym zapasie powtórzeń), ciężary lub powtórzenia nadal rosną, to dobry, choć pośredni znak, że mięśnie się adaptują, nawet gdy pompa jest mniejsza.” w1.simple analogicznie. Analogicznie EN.
+- **Pewność oceny:** umiarkowana-wysoka
+- **Weryfikacja:** analiza logiczna scenariusza; [WIEDZA] (adaptacje nerwowe i siła vs hipertrofia).
+
+#### M1-01-P17 · LOW · IT-M1-01-08 · pole `claims` (metadane)
+- **Claim / source:** CL-EFF-001, CL-PROG-001 (niepodpięte)
+- **OBECNIE:** `claims: [CL-TENS-001, CL-TENS-002, CL-DOMS-001]`
+- **PROBLEM:** Klucz C („kończyć serie blisko upadku i śledzić ciężar oraz powtórzenia”) opiera się na CL-EFF-001 (bliskość upadku a hipertrofia) i CL-PROG-001. Podpięte twierdzenia dotyczą tylko distraktorów, więc łańcuch źródło → klucz jest niekompletny.
+- **PROPONOWANA KOREKTA:** Dodać CL-EFF-001 i CL-PROG-001 do `claims`.
+- **Pewność oceny:** wysoka. **Weryfikacja:** plik YAML pytania.
+
+#### M1-01-P18 · LOW · IT-M1-01-08 · pola `localizations.pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** brak
+- **OBECNIE:** expert: „Dobór ćwiczeń i długość przerw mają mniejsze znaczenie niż to, czy serie są wymagające.” w2: „…a to właśnie ostatnie, najtrudniejsze powtórzenia dają najwięcej napięcia w wielu włóknach.”
+- **PROBLEM:** Porównanie względnej ważności zmiennych nie było badane i jest to opinia praktyczna. Mechanizm „ostatnie powtórzenia dają najwięcej napięcia” to hipoteza (patrz P11), podana jako fakt.
+- **PROPONOWANA KOREKTA:** expert: „W tej sytuacji ważniejsze niż zmiana ćwiczeń czy przerw wydaje się to, czy serie są wymagające (to wniosek z praktyki, nie z bezpośrednich porównań).” w2: „…a według dominującego wyjaśnienia to ostatnie, najtrudniejsze powtórzenia angażują najwięcej włókien pod dużym napięciem.” Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** CLAIMS_AUDIT (CL-REST-001, CL-EFF-001); [WIEDZA].
+
+#### M1-01-P19 · MEDIUM · IT-M1-01-09 · pola `localizations.pl.option_texts.A.feedback`, `pl.option_texts.B.feedback`, `pl.w0`, `pl.w1.simple`, `pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** CL-TENS-002 (SRC-0103, SRC-0109). Problem dziedziczony z C-01, tu w ostrej postaci.
+- **OBECNIE:** w1.simple: „Krótki wzrost hormonów po przysiadach nie przyspiesza wzrostu innych mięśni.” w1.expert: „Założenie (…) nie znajduje potwierdzenia: wielkość tego wzrostu nie korelowała z przyrostem.” w2: „W planie Ewy hormony nic więc nie dodają…” B: „O wzroście ramion decyduje napięcie w ich własnych włóknach.”
+- **PROBLEM:** Plan Ewy (ćwiczenia ramion po ciężkich ćwiczeniach nóg „dla hormonów”) to dokładnie układ eksperymentów West 2010 (brak efektu) i Rønnestad 2011 (większy przyrost przekroju zginaczy łokcia w części mięśnia; wynik kwestionowany). Zdania „nic nie dodają” i „nie znajduje potwierdzenia” zamieniają „nie wykazano spójnie” na „nie istnieje” i pomijają badanie przeczące. Wszystkie dane pochodzą od mężczyzn, a Ewa jest kobietą. Pytanie tego nie odnotowuje, choć u kobiet ostry wzrost testosteronu jest zwykle mały [WIEDZA], więc argument hormonalny jest dla niej jeszcze słabszy. „Decyduje” jest mocniejsze niż „uznaje się za główny bodziec” (CL-TENS-001). Klucz B pozostaje poprawny, bo niezależnie od hormonów serie Ewy kończą się daleko od upadku.
+- **PROPONOWANA KOREKTA:** w1.simple: „Krótki wzrost hormonów po przysiadach najpewniej nie przyspiesza wyraźnie wzrostu innych mięśni: w większości badań nie miał takiego efektu, a jedyny przeciwny wynik jest kwestionowany. Za to zmęczenie realnie osłabia serie na ramiona.” w1.expert: „…nie znajduje przekonującego potwierdzenia: w badaniach korelacyjnych wielkość wzrostu nie wiązała się z przyrostem, a eksperymenty z treningiem ramion po nogach dały wyniki sprzeczne. Badania prowadzono u mężczyzn.” w2: „W planie Ewy ewentualna korzyść z hormonów jest więc niepewna i najpewniej niewielka, a zmęczenie po przysiadach realnie odbiera ramionom bodziec…” B: „Za główny bodziec wzrostu ramion uznaje się napięcie w ich własnych włóknach.” Analogicznie EN.
+- **Pewność oceny:** wysoka (istnienie badań); umiarkowana (szczegóły Rønnestad 2011; odpowiedź hormonalna u kobiet [WIEDZA])
+- **Weryfikacja:** CLAIMS_AUDIT C-01 [SEARCH]; EXTRA.
+
+#### M1-01-P20 · MEDIUM · IT-M1-01-09 · pola `localizations.pl.w2`, `pl.w1.apply`, `pl.w1.expert` (i EN)
+- **Claim / source:** brak twierdzenia o kolejności ćwiczeń
+- **OBECNIE:** w2: „Wystarczy przestawić kolejność, np. zaczynać od ramion w dniu, w którym są priorytetem, albo trenować je w osobny dzień.” apply: „Ćwiczenia na partie, na których najbardziej ci zależy, rób wtedy, gdy masz najwięcej sił.” expert: „Kolejność ćwiczeń warto dobierać pod jakość serii w partiach priorytetowych…”
+- **PROBLEM:** Zalecenie nie ma źródła w bazie. [WIEDZA, pewność umiarkowana]: metaanaliza Nunes i in. 2021 (Eur J Sport Sci) wskazuje, że kolejność zwiększa przyrost **siły** w ćwiczeniu wykonywanym na początku, ale nie ma wyraźnego wpływu na **hipertrofię**. „Wystarczy” to overclaim: samo przestawienie nie gwarantuje serii blisko upadku, a to jest sedno problemu Ewy. Zalecenie jest rozsądne, ale treść powinna zaznaczyć, że wynika z praktyki.
+- **PROPONOWANA KOREKTA:** w2: „Rozsądnym krokiem jest przestawienie kolejności, np. zaczynanie od ramion w dniu, w którym są priorytetem, albo trening ramion w osobny dzień, ale kluczowe jest, by serie na ramiona kończyły się blisko upadku. Badania nad kolejnością ćwiczeń pokazują przewagę w sile ćwiczeń wykonywanych na początku, a dla przyrostu mięśni różnice są niejasne.” apply: „Ćwiczenia na partie, na których najbardziej ci zależy, rób wtedy, gdy masz siły, by kończyć serie blisko upadku.” Analogicznie EN.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA] (Nunes 2021, niezweryfikowane w sesji).
+
+#### M1-01-P21 · LOW · IT-M1-01-10 · pola `localizations.pl.w0`, `pl.w1.expert` (i EN)
+- **Claim / source:** CL-REPS-001 (C-02)
+- **OBECNIE:** w0: „Lekkie hantle wystarczą, jeśli serie kończą się na upadku lub blisko niego.”
+- **PROBLEM:** Scenariusz Tomka (25-30 powt. **do upadku**) jest wprost wspierany (Morton 2016, Schoenfeld 2017). W0 i expert uogólniają go jednak na „blisko upadku” przy lekkim ciężarze (C-02), ze słowem „wystarczą”.
+- **PROPONOWANA KOREKTA:** „Lekkie hantle wystarczą, jeśli serie kończą się na upadku lub tuż przed nim, a trudność ćwiczenia z czasem rośnie.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-02.
+
+#### M1-01-P22 · LOW · IT-M1-01-10 · pola `localizations.pl.w2`, `pl.w1.expert` (i EN)
+- **Claim / source:** brak (pośrednio CL-RIR-002 / Halperin 2022)
+- **OBECNIE:** „…gdy liczba powtórzeń urośnie do 35-40, serie staną się bardzo długie i męczące (…). Wtedy lepiej utrudnić ćwiczenie (…) niż dokładać kolejne powtórzenia.”
+- **PROBLEM:** Próg 35-40 powtórzeń to liczba praktyczna bez źródła. Zalecenie „lepiej utrudnić” nie było testowane, a treść nie sygnalizuje ograniczonej podstawy empirycznej. Kierunek wspierają: spadek trafności oceny zapasu przy wielu powtórzeniach (Halperin 2022) i mniejsza hipertrofia przy 20% 1RM (Lasevicius 2018 [WIEDZA]).
+- **PROPONOWANA KOREKTA:** „…gdy liczba powtórzeń wyraźnie przekroczy ok. 30-40 (to próg praktyczny, nie wynik badań), serie staną się bardzo długie (…). Wtedy rozsądniej jest utrudnić ćwiczenie (…). Przy bardzo lekkich ciężarach, poniżej ok. 30% maksimum, danych jest mało.” Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** EXTRA (Halperin 2022 [SEARCH]); G1 (Lasevicius 2018 [WIEDZA]).
+
+#### M1-01-P23 · MEDIUM · IT-M1-01-51 · pola `localizations.pl.main_feedback.myth`, `pl.main_feedback.depends`, `pl.w0`, `pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** CL-TENS-002 (SRC-0103, SRC-0109). Problem dziedziczony z C-01.
+- **OBECNIE:** w0: „Mit. Krótki skok hormonów po treningu nie przyspiesza wzrostu mięśni, liczy się bodziec w ramionach.” w2: „…W 12-tygodniowym badaniu z randomizacją u 49 trenujących mężczyzn wielkość tych wzrostów nie wiązała się ani z przyrostem mięśni, ani z przyrostem siły. (…) Pewność jest umiarkowana, bo badań jest niewiele i dotyczą głównie młodych mężczyzn.”
+- **PROBLEM:** Teza ze stemu („ramiona rosną szybciej, jeśli trenuje się je zaraz po ciężkim treningu nóg, bo więcej T i GH”) była testowana wprost. West 2010 nie wykazał efektu. Rønnestad 2011 wykazał większy przyrost przekroju zginaczy łokcia w części mięśnia i większy przyrost siły; wynik kwestionowano. Pytanie cytuje tylko korelacje z Morton 2016 i formułuje W0 kategorycznie. Etykieta „mit” jest obronialna na podstawie całości dowodów (korelacje Morton 2016 i innych oraz West 2010), ale uzasadnienie pomija wynik przeciwny, a pewność opisuje niepełnie.
+- **PROPONOWANA KOREKTA:** w0: „Mit. Krótki skok hormonów po treningu nóg najpewniej nie przyspiesza wyraźnie wzrostu ramion; liczy się bodziec w samych ramionach.” Do w2 dopisać: „Pomysł sprawdzono też wprost u nietrenujących mężczyzn. W jednym badaniu trening ramion po ćwiczeniach nóg nie zwiększył ich przyrostu, w drugim zwiększył go w części mięśnia, ale ten wynik jest kwestionowany i niepowtórzony.” Myth i depends: „W większości badań…”. Analogicznie EN.
+- **Pewność oceny:** wysoka (istnienie badań); umiarkowana (szczegóły)
+- **Weryfikacja:** CLAIMS_AUDIT C-01 [SEARCH https://link.springer.com/article/10.1007/s00421-011-1860-0]; EXTRA.
+
+#### M1-01-P24 · LOW · IT-M1-01-52 · pole `localizations.pl.w1.expert` (i EN)
+- **Claim / source:** CL-TENS-003 (patrz P02), CL-REPS-001
+- **OBECNIE:** „Nie ma badań pokazujących, że większa pompa przy tej samej pracy daje większy przyrost, więc ciężkie serie z małą pompą są pełnowartościowe.”
+- **PROBLEM:** (1) Pominięto korelacyjne dane Hirono 2022. „Daje” w sensie przyczynowym jest formalnie prawdziwe, ale mylące. (2) Non sequitur: z braku dowodów na korzyść pompy wyprowadzono równoważność („pełnowartościowe”). Wniosek ma wsparcie gdzie indziej: metaanalizy obciążeń pokazują podobny przyrost mimo różnej pompy.
+- **PROPONOWANA KOREKTA:** „Serie ciężkie i lekkie doprowadzone do upadku dają w badaniach podobny przyrost mimo zupełnie innej pompy, więc ciężkie serie z małą pompą są skuteczne. Brak badań, w których celowe zwiększanie pompy przy tej samej pracy zwiększałoby przyrost; w małych badaniach korelacyjnych obrzęk po treningu tylko umiarkowanie wiązał się z przyrostem.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** WebSearch [SEARCH] (jak P02); G1 (SRC-0101).
+
+#### M1-01-P25 · LOW · IT-M1-01-52 · pola `localizations.pl.followup_texts.C.feedback`, `pl.w2` (i EN)
+- **Claim / source:** CL-REPS-001 (C-02)
+- **OBECNIE:** C: „Przy wysiłku blisko upadku szeroki zakres powtórzeń buduje jednak mięśnie podobnie”. w2: „Blisko upadku obie mogą jednak budować mięśnie podobnie…”
+- **PROBLEM:** Problem dziedziczony z C-02 w odniesieniu do długich, lekkich serii. W w2 łagodzi go słowo „mogą”.
+- **PROPONOWANA KOREKTA:** „Przy seriach do upadku lub tuż przed nim…”. Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-02.
+
+#### M1-01-P26 · MEDIUM · IT-M1-01-61 · pola `localizations.pl.w2`, `pl.w1.simple` (i EN)
+- **Claim / source:** CL-TENS-002 (SRC-0103, SRC-0109). Problem dziedziczony z C-01.
+- **OBECNIE:** w2: „Na tej podstawie zalecano np. robienie przysiadów przed treningiem ramion albo skracanie przerw. Badania, w których mierzono zarówno hormony, jak i przyrost mięśni, nie potwierdziły tej zależności: osoby z większym skokiem hormonów nie rosły bardziej.” w1.simple: „W badaniach osoby z większym wyrzutem hormonów nie przybierały więcej mięśni.”
+- **PROBLEM:** Rønnestad 2011 mierzył hormony i przyrost i dla rady „nogi przed ramionami” uzyskał wynik pozytywny (kwestionowany). West 2010 nie wykazał efektu. Zdanie „nie potwierdziły” jest kategoryczne i stoi bezpośrednio po wzmiance o tej radzie. Dla korelacji międzyosobniczych (Morton 2016 oraz [WIEDZA] Mitchell 2013, West & Phillips 2012) wniosek „brak istotnego związku” jest zasadniczo trafny. Klucz A jest poprawny.
+- **PROPONOWANA KOREKTA:** w2: „Badania korelacyjne, w których mierzono hormony i przyrost mięśni, nie potwierdziły tej zależności: osoby z większym skokiem hormonów nie rosły wyraźnie bardziej. Eksperymenty z ćwiczeniami nóg przed treningiem ramion dały wyniki sprzeczne: w jednym bez efektu, w drugim z niewielkim, kwestionowanym efektem.” w1.simple: „W badaniach osoby z większym wyrzutem hormonów zwykle nie przybierały więcej mięśni.” Analogicznie EN.
+- **Pewność oceny:** wysoka (istnienie badań); umiarkowana (szczegóły)
+- **Weryfikacja:** CLAIMS_AUDIT C-01 [SEARCH]; EXTRA; [WIEDZA] (Mitchell 2013 PLoS One).
+
+#### M1-01-P27 · LOW · IT-M1-01-62 · pola `localizations.pl.option_texts.A.feedback`, `pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** CL-DOMS-002 (SRC-0110, SRC-0109, SRC-0111). Problem dziedziczony z C-26.
+- **OBECNIE:** A: „Badania pokazują jednak, że uszkodzenia są największe na początku nowego programu, a mięśnie rosną, gdy uszkodzeń jest coraz mniej.” expert: „W małym badaniu z biopsjami wczesny wzrost syntezy białek szedł głównie na naprawę…”
+- **PROBLEM:** Opis dotyczy jednego badania (Damas 2016, n=10, wcześniej nietrenujący mężczyźni). „Szedł głównie na naprawę” to interpretacja autorów oparta na korelacjach (twierdzenie mówi „wydaje się”), podana jako wynik pomiaru. Istnieje komentarz przeciwny (J Physiol 2016). Spadek uszkodzeń przy powtarzaniu ćwiczeń jest dobrze udokumentowany (efekt powtórzonej sesji [WIEDZA]), więc kierunek A jest trafny. W2 poprawnie mówi o „jednym małym badaniu”.
+- **PROPONOWANA KOREKTA:** A: „W małym badaniu u początkujących uszkodzenia były największe na początku programu, a mięśnie rosły, gdy uszkodzeń było coraz mniej. To, że uszkodzeń ubywa przy powtarzaniu ćwiczeń, potwierdzają też inne badania.” expert: „…wczesny wzrost syntezy białek nie wiązał się z przyrostem, co autorzy interpretują jako przewagę naprawy; uczestnicy byli wcześniej nietrenujący.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-26; EXTRA (Damas 2016 [SEARCH], komentarz PMID 27976401).
+
+#### M1-01-P28 · MEDIUM · IT-M1-01-71 · pola `localizations.pl.option_texts.B.feedback`, `pl.w1.expert`, `pl.w2` (i EN)
+- **Claim / source:** CL-TENS-001, CL-DOMS-001 nie dotyczą tej tezy. CL-PROG-001 niepodpięty i dotyczy konieczności progresji, nie jej wartości jako wskaźnika.
+- **OBECNIE:** B: „Dwa dodatkowe powtórzenia tym samym ciężarem przy podobnym wysiłku pokazują, że mięśnie nadal się adaptują, a trening działa.” w2: „W praktyce najlepszym wskaźnikiem jest dziennik (…). Zmiany obwodów i wyglądu są wolniejsze i łatwo je przeoczyć, dlatego zapiski wyników szybciej pokazują, czy trening działa.”
+- **PROBLEM:** Stem pyta o „bodziec do wzrostu”. Progres wyników jest rozsądnym, ale pośrednim wskaźnikiem, bo obejmuje adaptacje nerwowe, technikę i koordynację; związek zmian siły ze zmianami masy mięśniowej jest umiarkowany [WIEDZA]. „Najlepszym wskaźnikiem” i „szybciej pokazują, czy trening działa” to superlatywy bez źródła. Wyniki reagują szybciej właśnie dlatego, że odzwierciedlają też czynniki inne niż przerost. Klucz B pozostaje najlepszy wśród opcji (zakwasy, pompa, hormony), ale główna teza wyjaśnień jest przeszacowana i nieudokumentowana.
+- **PROPONOWANA KOREKTA:** B: „…pokazują, że trening nadal wywołuje adaptację. To dobry, choć pośredni znak, bo wzrost siły wynika też z lepszej techniki i pracy układu nerwowego.” w2: „W praktyce najwygodniejszym, choć pośrednim wskaźnikiem jest dziennik (…). Wyniki zmieniają się szybciej niż obwody, ale odzwierciedlają też poprawę techniki, więc co kilka tygodni warto sprawdzać także obwody lub zdjęcia.” Dodać CL-PROG-001 do `claims`. Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** [WIEDZA]; przegląd twierdzeń w bazie (brak twierdzenia o wartości diagnostycznej progresji).
+
+#### M1-01-P29 · LOW · IT-M1-01-71 · pole `localizations.pl.option_texts.D.feedback` (i `en`: „In a study of trained people”)
+- **Claim / source:** CL-TENS-002 (SRC-0103)
+- **OBECNIE:** „W badaniu z osobami trenującymi wielkość tego skoku nie wiązała się jednak z przyrostem mięśni ani siły.”
+- **PROBLEM:** Morton 2016 badał wyłącznie młodych mężczyzn. Pytanie dotyczy kobiety (Oli), a opis populacji ją uogólnia.
+- **PROPONOWANA KOREKTA:** „W badaniu z udziałem trenujących mężczyzn…” (EN: „In a study of trained men…”).
+- **Pewność oceny:** wysoka. **Weryfikacja:** SRC-0103; EXTRA (Morton 2016 [SEARCH]).
+
+#### M1-01-P30 · LOW · IT-M1-01-71 · pole `localizations.pl.option_texts.C.feedback` (i EN)
+- **Claim / source:** CL-TENS-003 (patrz P02)
+- **OBECNIE:** „Nie ma badań pokazujących, że większa pompa przy tej samej pracy daje większy przyrost.”
+- **PROBLEM:** Pominięto dane korelacyjne (Hirono 2022). Sformułowanie przyczynowe („daje”) jest formalnie obronialne, ale mylące.
+- **PROPONOWANA KOREKTA:** „Nie ma badań, w których celowe zwiększanie pompy przy tej samej pracy zwiększałoby przyrost, a serie z małą pompą budują mięśnie podobnie jak serie z dużą.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** WebSearch [SEARCH] (jak P02).
+
+#### M1-01-P31 · LOW · IT-M1-01-71 · pola `localizations.pl.w2`, `pl.w1.expert` (i EN)
+- **Claim / source:** CL-DOMS-001 (C-04), CL-DOMS-002/003 (C-26)
+- **OBECNIE:** „Zakwasy słabo odzwierciedlają nawet samo uszkodzenie, więc tym bardziej nie mierzą wzrostu.”
+- **PROBLEM:** Wniosek „tym bardziej” jest logiczny, a nie empiryczny: żadne źródło nie testuje nasilenia zakwasów jako predyktora hipertrofii (C-04). Dane Damas pochodzą od nietrenujących, a Ola trenuje 5 miesięcy (C-26). Kierunek jest trafny, ale siła sformułowania przekracza dowody.
+- **PROPONOWANA KOREKTA:** „Zakwasy słabo odzwierciedlają nawet samo uszkodzenie, a nie ma badań, które wiązałyby ich nasilenie z długoterminowym przyrostem, więc nie są dobrą miarą skuteczności.” Analogicznie EN.
+- **Pewność oceny:** umiarkowana. **Weryfikacja:** CLAIMS_AUDIT C-04, C-26; G1 (SRC-0110, SRC-0111).
+
+### Karta pojęcia i błędne przekonania
+
+#### M1-01-P32 · MEDIUM · KC-M1-01 · pole `card.pl` (i `card.en`)
+- **Claim / source:** CL-REPS-001 (C-02), CL-TENS-001
+- **OBECNIE:** „Duże napięcie daje ciężka seria, ale też lżejsza, jeśli kończy się blisko upadku: pod jej koniec pracują także największe włókna. Dlatego przy takich seriach podobny przyrost daje szeroki zakres ciężarów, od około 30% ciężaru maksymalnego wzwyż.”
+- **PROBLEM:** (1) Problem dziedziczony z C-02: przy lekkich ciężarach dowody dotyczą serii do upadku (Lasevicius 2022). (2) „Dlatego” przedstawia hipotezę rekrutacyjną jako udowodnioną przyczynę podobnego przyrostu (patrz P10, P11). Karta jest treścią nadrzędną, a błąd powtarzają IT-M1-01-05, -06, -10 i -52.
+- **PROPONOWANA KOREKTA:** „Duże napięcie daje ciężka seria, ale też lżejsza, jeśli kończy się na upadku lub tuż przed nim. Uważa się, że pod jej koniec pracują wtedy także największe włókna. W badaniach z seriami do upadku podobny przyrost dawał szeroki zakres ciężarów, od około 30% ciężaru maksymalnego wzwyż.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-02; EXTRA (Lasevicius 2022).
+
+#### M1-01-P33 · LOW · MC-100 · pole `refutation.pl` (i `en`)
+- **Claim / source:** CL-TENS-003
+- **OBECNIE:** „Nie ma badań pokazujących, że większa pompa przy tej samej pracy daje większy przyrost.”
+- **PROBLEM:** Pominięto korelacyjne dane Hirono 2022 (patrz P02 i P30).
+- **PROPONOWANA KOREKTA:** „Nie ma badań, w których celowe zwiększanie pompy przy tej samej pracy zwiększałoby przyrost; w małych badaniach korelacyjnych obrzęk po treningu tylko umiarkowanie wiązał się z przyrostem, a serie lekkie i ciężkie dają podobny przyrost mimo różnej pompy.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** WebSearch [SEARCH].
+
+#### M1-01-P34 · LOW · MC-101 · pole `refutation.pl` (i `en`)
+- **Claim / source:** CL-TENS-002 (C-01)
+- **OBECNIE:** „W badaniu z randomizacją u trenujących mężczyzn jego wielkość nie wiązała się ani z przyrostem mięśni, ani z przyrostem siły. O wzroście decyduje przede wszystkim bodziec lokalny…”
+- **PROBLEM:** Problem dziedziczony z C-01: pominięto eksperymenty West 2010 (zgodny) i Rønnestad 2011 (przeczący, kwestionowany). Łagodzi go sformułowanie „przede wszystkim”.
+- **PROPONOWANA KOREKTA:** Dopisać: „Eksperymenty, w których celowo podnoszono poziom hormonów ćwiczeniami nóg, dały wyniki niejednoznaczne, więc całość dowodów nie wspiera układania treningu pod wyrzut hormonów.” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-01.
+
+#### M1-01-P35 · LOW · MC-109 · pole `refutation.pl` (i `en`)
+- **Claim / source:** CL-DOMS-001/002 (C-26)
+- **OBECNIE:** „Gdy organizm przyzwyczaja się do programu, uszkodzeń jest mniej, a mięśnie nadal rosną.”
+- **PROBLEM:** Kategoryczne uogólnienie z Damas 2016 (n=10, nietrenujący, 10 tyg.). Pytania używają ostrożniejszego „mogą nadal rosnąć”.
+- **PROPONOWANA KOREKTA:** „…uszkodzeń jest mniej, a mięśnie mogą nadal rosnąć (dane głównie od osób początkujących).” Analogicznie EN.
+- **Pewność oceny:** wysoka. **Weryfikacja:** CLAIMS_AUDIT C-26; G1.
+
+**Uwagi informacyjne (MC z innych kart, powiązane z opcjami tej partii; nieliczone, do oceny w partiach ich KC):**
+- MC-103 (KC-M1-03), refutation: „Gdy serie kończą się blisko upadku, podobny przyrost dają (…) serie po 20-30 powtórzeń z lżejszym” dziedziczy C-02.
+- MC-104 (KC-M1-03): „Przy wysiłku blisko upadku lekkie ciężary (…) budują mięśnie podobnie” dziedziczy C-02.
+- MC-106 (KC-M1-04): „Seria buduje mięśnie tym skuteczniej, im bliżej upadku się kończy” zakłada zależność monotoniczną (C-27).
+- MC-206 (KC-M2-04): brak istotnych problemów (zgodne z Singer 2024 i Schoenfeld 2016).
+
+**Uwaga dla audytu twierdzeń (nowe ustalenie, poza licznikami partii):** CL-TENS-003, pola `applicability` („Brak badań, które sprawdzałyby wprost, czy wielkość pompy przewiduje przyrost”) i `evidence_summary` („żadne badanie nie sprawdziło wprost”; „Wstępne dane nie potwierdzają…”). Oba sformułowania są sprzeczne z Hirono i in. 2022 (J Strength Cond Res; n=22 nietrenujących; ρ=0,443 między ostrym obrzękiem a przyrostem po 6 tyg.) oraz z badaniem z 2023 r. (mięśnie strzałkowe; szczegóły NIEZWERYFIKOWANE). Proponuję nowy problem C-45 · MEDIUM. Dodać Hirono 2022 jako źródło „context” (częściowo przeczące) i przeformułować: „W małych badaniach korelacyjnych u nietrenujących większy obrzęk po pierwszym treningu umiarkowanie wiązał się z przyrostem; nie badano, czy celowe zwiększanie pompy przy tej samej pracy zwiększa przyrost, a serie lekkie i ciężkie do upadku dają podobny przyrost mimo różnej pompy.” Rekomendacja „niezalecane” i pewność C pozostają uzasadnione. Kontekst aktualności CL-TENS-001: wyszukiwarka pokazała nowszy przegląd „Load-induced human skeletal muscle hypertrophy: Mechanisms, myths, and misconceptions” (J Sport Health Sci 2025; https://www.sciencedirect.com/science/article/pii/S2095254625000869). Znam tylko tytuł, treść NIEZWERYFIKOWANA.
+
+### Podsumowanie partii
+- Pytania: PASS 0, PASS WITH NOTES 4 (IT-M1-01-01, -10, -52, -62), REVISION REQUIRED 11 (IT-M1-01-02, -03, -04, -05, -06, -07, -08, -09, -51, -61, -71), FAIL 0, UNVERIFIED 0 (razem 15)
+- Problemy (tylko w pytaniach): CRITICAL 0, HIGH 0, MEDIUM 13, LOW 18
+- Problemy w karcie/MC (osobno): CRITICAL 0, HIGH 0, MEDIUM 1, LOW 3 (oraz 1 nowe ustalenie na poziomie twierdzenia CL-TENS-003, proponowane C-45 · MEDIUM, poza licznikami)
+- Klucze odpowiedzi: wszystkie 15 poprawne lub obronialne. Problemy dotyczą wyjaśnień (feedback, W0-W2), metadanych i dziedziczenia z twierdzeń (C-01, C-02, C-04, C-26).
+- Ostatnie ID w partii: IT-M1-01-71
+
+---
+
+## Partia 2: KC-M1-02 — Progresywne przeciążenie
+
+**Zakres partii:** pytania IT-M1-02-01 … IT-M1-02-71 (13: -01, -02, -03, -04, -05, -06, -07, -08, -09, -10, -51, -61, -71), twierdzenia: CL-PROG-001, CL-PROG-002, CL-PROG-003, CL-EFF-001, CL-REPS-001, CL-RIR-001; źródła: SRC-0100 (ACSM 2026), SRC-0101 (Schoenfeld 2017), SRC-0102 (Currier 2023), SRC-0103 (Morton 2016), SRC-0104 (Refalo 2023), SRC-0105 (Robinson 2024), SRC-0106 (Halperin 2022), SRC-0107 (Zourdos 2016), SRC-0108 (Plotkin 2022). Błędne przekonania karty: MC-102, MC-610 (pozostałe MC powiązane przez opcje – tylko sygnalizacja, patrz niżej).
+
+**Uwagi metodyczne partii**
+- Weryfikacja źródeł oparta na CLAIMS_AUDIT.md oraz dossier G1, G3a, EXTRA (wszystkie źródła zweryfikowane częściowo, bez pełnych tekstów). Wykonano jedno wyszukiwanie WebSearch (spór o udział hipertrofii we wzroście siły – potwierdzony, patrz P10).
+- Dziedziczenie C-06 (CL-PROG-001: „muszą” – konieczność progresji nie była testowana wprost) oceniam konsekwentnie: **LOW**, gdy pytanie samo zawiera zastrzeżenie o ograniczonych dowodach (np. „niewiele badań porównuje wprost trening z progresją i bez niej”) albo gdy zdanie o konieczności jest pojedyncze i peryferyjne; **MEDIUM**, gdy konieczność/wystarczalność jest podana wielokrotnie lub jako wynik badań, bez żadnego zastrzeżenia w pytaniu.
+- Wyjaśnienia „szybki start = nauka ruchu (technika, koordynacja)” nie mają w bazie żadnego twierdzenia ani źródła. Część o wczesnych adaptacjach nerwowych jest zgodna z głównym nurtem [WIEDZA] → LOW, gdy pojawia się w W1/W2. Część „później siła coraz bardziej zależy od przyrostu mięśni” to model sporny w literaturze → MEDIUM, gdy stanowi rdzeń wyjaśnienia (IT-08, IT-10). Zdania w feedbacku dystraktorów „szybki wzrost w nowym ćwiczeniu to głównie nauka ruchu” traktuję informacyjnie (obecne w MC-401, zgodne z głównym nurtem).
+
+### Tabela statusów
+| ID | STATUS | SEVERITY | CLAIMS | SOURCES | KRÓTKIE UZASADNIENIE |
+|---|---|---|---|---|---|
+| IT-M1-02-01 | PASS WITH NOTES | LOW | CL-PROG-001, CL-PROG-003 | SRC-0100, SRC-0108 | Klucz A (definicja) poprawny i jedyny najlepszy; dystraktory B-D faktycznie błędne. „Musi” (C-06) złagodzone zastrzeżeniem w W2; nieudokumentowane wyjaśnienie „technika i koordynacja” w W2. |
+| IT-M1-02-02 | PASS WITH NOTES | LOW | CL-PROG-001 | SRC-0100, SRC-0108 | Klucz multi A+B+C poprawny i kompletny (ciężar, powtórzenia, serie); D i E słusznie niepoprawne. Mechanizm „stały bodziec traci skuteczność” podany jako fakt bez zastrzeżenia (peryferyjne). |
+| IT-M1-02-03 | PASS WITH NOTES | LOW | CL-PROG-001 | SRC-0100, SRC-0108 | Klucz A („najpewniej zwolnią…”) poprawny niezależnie od mechanizmu (przyrosty zwalniają także przy progresji). C-06 w W0/W1.simple, zastrzeżenie obecne w W1.expert; ramy „po kilku miesiącach” nieudokumentowane. Brak W2 (informacyjnie). |
+| IT-M1-02-04 | PASS WITH NOTES | LOW | CL-PROG-001, CL-EFF-001 | SRC-0100, SRC-0108, SRC-0105, SRC-0104 | Klucz B najlepszy spośród opcji (pozostałe to mity); W2 uczciwie mówi o mechanizmie i o naturalnym spowolnieniu także przy progresji. „Trzeba” w W1.simple (C-06), złagodzone w W2. |
+| IT-M1-02-05 | PASS WITH NOTES | LOW | CL-PROG-003, CL-PROG-001 | SRC-0108, SRC-0100 | Klucz „mit” obronialny (twierdzenie absolutne; SRC-0108 DIRECT dla „bez ciężaru nie ma postępu”); „zależy” słusznie oceniane jako mit. Arytmetyka 2,5 kg × 156 = 390 kg ≈ 860 lb poprawna. Nieudokumentowany czas trwania fazy liniowej i mechanizm nerwowy; przewaga siłowa LOAD bez zaznaczenia niepewności. |
+| IT-M1-02-06 | PASS WITH NOTES | LOW | CL-PROG-002, CL-PROG-001, CL-REPS-001 | SRC-0108, SRC-0100, SRC-0101, SRC-0102, SRC-0103 | Klucz C poprawny; opis Plotkin 2022 wzorcowo ostrożny (jedno badanie, 8 tyg., nogi, różnica siły „mała i niepewna”). W W2 uogólnienie „blisko upadku… bardzo różne liczby powtórzeń” dziedziczy C-02/C-03 (peryferyjne). |
+| IT-M1-02-07 | REVISION REQUIRED | MEDIUM | CL-PROG-001, CL-PROG-003 | SRC-0100, SRC-0108 | Klucz D poprawny. Konieczność („sama regularność nie wystarcza”) i wystarczalność („Wystarczy progresja…”, „Rozwiązaniem jest”) podane jako pewne, bez żadnego zastrzeżenia w pytaniu (C-06 + „wystarczy”). |
+| IT-M1-02-08 | REVISION REQUIRED | MEDIUM | CL-PROG-003, CL-PROG-001 | SRC-0108, SRC-0100 | Klucz B poprawny. Rdzeń W2 („później siła coraz bardziej zależy od przyrostu mięśni”) – model nieudokumentowany w bazie i sporny w literaturze. Drobna luka ostrożności: brak wskazania, by kończyć serię przed rozpadem techniki / cofnąć ciężar. |
+| IT-M1-02-09 | REVISION REQUIRED | MEDIUM | CL-PROG-001, CL-REPS-001 | SRC-0100, SRC-0108, SRC-0101, SRC-0102, SRC-0103 | Klucz C poprawny. Scenariusz z lekkim ciężarem opiera się na „blisko upadku” (C-02: dowody dotyczą serii do upadku; Lasevicius 2022) i „podobnej” hipertrofii (C-03); W2 „lekkie hantle wystarczą” – ekstrapolacja poza dane (≤30% 1RM, długi okres). |
+| IT-M1-02-10 | REVISION REQUIRED | MEDIUM | CL-PROG-003 | SRC-0108, SRC-0100 | Numeric poprawny: 2,5 kg × 156 = 390 kg; full [350, 400] obejmuje wariant 5 lb (780 lb ≈ 354 kg); partial rozłączne; feedback below/above spójny. W1.expert/W2 – ten sam sporny, nieudokumentowany model nerwowy → hipertrofia co w IT-08; niepowiązane CL-RATE-002. |
+| IT-M1-02-51 | REVISION REQUIRED | MEDIUM | CL-PROG-001, CL-PROG-003 | SRC-0100, SRC-0108 | Klucz C poprawny, dystraktory błędne. W1.expert/W2 podają konieczność progresji w najsilniejszej formie („potrzebne jest”, „warunkiem długoterminowych postępów”) w pytaniu o to, co „zgodne z badaniami”; bez zastrzeżeń. EN W2: 5 lb × 156 ≠ 860 lb; nieudokumentowane „nauka ruchu”. |
+| IT-M1-02-61 | REVISION REQUIRED | MEDIUM | CL-PROG-001, CL-PROG-003, CL-RIR-001 | SRC-0100, SRC-0108, SRC-0107, SRC-0106, SRC-0105 | Klucz B poprawny w ramach scenariusza (zapas podany jako fakt). Uogólniona reguła „wzrost zapasu = wzrost możliwości o ok. 2 powtórzenia” pomija błąd szacunku RIR (Halperin 2022: ~1 powt., I² ≈ 98%, gorsza trafność dalej od upadku) i zmienność dzień do dnia – nadmierna precyzja. |
+| IT-M1-02-71 | PASS WITH NOTES | LOW | CL-PROG-001, CL-PROG-003, CL-REPS-001 | SRC-0100, SRC-0108, SRC-0101, SRC-0102, SRC-0103 | Klucz C poprawny (15 powt. przy podobnym RIR = postęp; skok 10→12 kg = +20% – poprawne). Uwagi LOW: „warunkiem” (C-06), „blisko upadku” (C-02/C-03), „różnice między programami niewielkie” (C-07, niepowiązane), nieudokumentowane „technika i koordynacja”. |
+
+### Szczegóły problemów
+
+#### M1-02-P01 · LOW · IT-M1-02-01 · pola `localizations.pl.option_texts.A.feedback`, `localizations.pl.w1.simple` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** „Mięśnie dostosowują się do treningu, więc żeby dalej rosły, trening musi z czasem stawiać większe wymagania.”; W1.simple: „Dlatego trening musi stopniowo stawiać więcej: większy ciężar, więcej powtórzeń albo dodatkową serię.”
+- **PROBLEM:** Dziedziczone z C-06. Konieczności progresji nie testowano wprost: SRC-0108 (Plotkin 2022) porównuje dwie formy progresji, a nie progresję z jej brakiem (INDIRECT); ACSM 2026 zaleca trening progresywny (PARTIAL, dosłowne brzmienie zalecenia niezweryfikowane). Pytanie samo zawiera zastrzeżenie w W2 („choć niewiele badań porównuje wprost trening z progresją i bez niej”), dlatego LOW.
+- **PROPONOWANA KOREKTA:** Feedback A: „…więc żeby dalej rosły, zaleca się, by trening z czasem stawiał większe wymagania.” W1.simple: „Dlatego zaleca się stopniowo stawiać więcej: …”. Analogicznie w EN („is recommended to” zamiast „has to”).
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06; dossier G3a (Plotkin → CL-PROG-001 INDIRECT), G1 (ACSM → PARTIAL).
+
+#### M1-02-P02 · LOW · IT-M1-02-01 · pole `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak (żadne twierdzenie bazy nie obejmuje adaptacji nerwowych)
+- **OBECNIE:** „Na początku ciężar potrafi rosnąć prawie z treningu na trening, bo szybko poprawiają się technika i koordynacja.”
+- **PROBLEM:** Nieudokumentowane zdanie mechanistyczne w W2. Merytorycznie zgodne z głównym nurtem (wczesny wzrost siły w dużej części z adaptacji nerwowych i uczenia się ruchu) [WIEDZA: np. Folland i Williams 2007, Sports Med – przegląd wkładu adaptacji morfologicznych i nerwowych], ale bez twierdzenia i źródła w bazie. Nie wpływa na klucz.
+- **PROPONOWANA KOREKTA:** Dodać twierdzenie o wczesnych adaptacjach nerwowych ze źródłem przeglądowym i powiązać je z pytaniem; brzmienie może zostać, ewentualnie „…bo duża część wczesnej poprawy siły to nauka ruchu: technika i koordynacja”.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA]; brak w CLAIMS_AUDIT i dossier.
+
+#### M1-02-P03 · LOW · IT-M1-02-02 · pola `localizations.pl.w1.expert`, `localizations.pl.option_texts.D.feedback` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), pośrednio CL-EFF-001 (niepowiązane); SRC-0100, SRC-0108
+- **OBECNIE:** W1.expert: „Stały bodziec traci skuteczność, bo ta sama praca oznacza coraz mniejszy wysiłek względny.”; D: „Gdy jednak mięśnie się dostosują, te same serie stają się łatwiejsze i przestają być wyzwaniem, więc przyrosty zwalniają.”
+- **PROBLEM:** Mechanizm podany jako ustalony fakt, a w całym pytaniu nie ma informacji, że to wniosek z mechanizmu i z pośrednich danych o bliskości upadku (Robinson 2024 – RIR szacowane, analiza eksploracyjna), a nie z bezpośrednich porównań. Peryferyjne wobec klucza (pytanie definicyjne), dlatego LOW.
+- **PROPONOWANA KOREKTA:** „Stały bodziec najpewniej traci skuteczność, bo ta sama praca oznacza coraz mniejszy wysiłek względny. To wniosek z badań nad wysiłkiem, bo bezpośrednich porównań treningu z progresją i bez niej jest mało.”
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06, C-27; dossier G1 (Robinson 2024).
+
+#### M1-02-P04 · LOW · IT-M1-02-03 · pola `localizations.pl.w0`, `localizations.pl.w1.simple`, `localizations.pl.option_texts.A.feedback` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** W0: „Bez stopniowego zwiększania wymagań przyrosty po kilku miesiącach zwykle zwalniają albo stają.”; W1.simple: „Żeby mięśnie dalej rosły, wymagania trzeba stopniowo podnosić.”
+- **PROBLEM:** (1) C-06 (konieczność) – złagodzone w W1.expert, dlatego LOW. (2) Ramy czasowe „po kilku miesiącach” nie mają źródła (brak badań ze stałym obciążeniem przez miesiące). (3) W0 sugeruje, że spowolnienie wynika wyłącznie z braku progresji, tymczasem przyrosty zwalniają także przy progresji (CL-RATE-002; przegląd mechanizmów plateau: „The Plateau in Muscle Growth with Resistance Training: An Exploration of Possible Mechanisms”, Sports Med [SEARCH – tylko tytuł]). Klucz A („najpewniej zwolnią”) pozostaje poprawny niezależnie od mechanizmu.
+- **PROPONOWANA KOREKTA:** W0: „Bez stopniowego zwiększania wymagań przyrosty po kilku miesiącach najpewniej wyraźnie zwolnią, a z czasem mogą stanąć.” W1.simple: „Żeby mięśnie dalej rosły, zaleca się stopniowo podnosić wymagania.”
+- **Pewność oceny:** umiarkowana-wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06, C-15; WebSearch (link.springer.com/article/10.1007/s40279-023-01932-y – tytuł).
+
+#### M1-02-P05 · LOW · IT-M1-02-04 · pole `localizations.pl.w1.simple` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** „Dlatego trzeba stopniowo dokładać ciężar, powtórzenia albo serie.”
+- **PROBLEM:** C-06, złagodzone w W2 („choć długich badań porównujących wprost trening z progresją i bez niej jest niewiele”), dlatego LOW. Informacyjnie: klucz B to najlepsze z podanych wyjaśnień, ale nie jedyna przyczyna spowolnienia (W2 poprawnie to zaznacza).
+- **PROPONOWANA KOREKTA:** „Dlatego zaleca się stopniowo dokładać ciężar, powtórzenia albo serie.”
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06.
+
+#### M1-02-P06 · LOW · IT-M1-02-05 · pola `localizations.pl.w1.expert`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak twierdzenia (CL-PROG-003 i CL-DPRG-003 obejmują mit i arytmetykę, nie mechanizm ani czas trwania fazy liniowej)
+- **OBECNIE:** W1.expert: „Liniowe dokładanie ciężaru działa krótko, głównie u początkujących; później obciążenie rośnie co kilka treningów lub tygodni.”; W2: „U początkujących ciężar rzeczywiście rośnie niemal z treningu na trening, bo szybko poprawiają się technika i koordynacja (…) Ten etap mija jednak po kilku tygodniach lub miesiącach.”
+- **PROBLEM:** Mechanizm (adaptacje nerwowe) i czas trwania fazy („kilka tygodni lub miesięcy”) są nieudokumentowane w bazie. Są zgodne z głównym nurtem i praktyką [WIEDZA], ale czas trwania to obserwacja praktyczna, nie wynik badań. Nie wpływa na klucz.
+- **PROPONOWANA KOREKTA:** Powiązać z twierdzeniem o adaptacjach nerwowych (patrz P02). W2: „…Jak długo trwa ten etap, zależy od osoby i ćwiczenia; zwykle są to tygodnie do kilku miesięcy (obserwacja z praktyki, nie wynik badań).”
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA]; brak w CLAIMS_AUDIT i dossier.
+
+#### M1-02-P07 · LOW · IT-M1-02-05 · pole `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** CL-PROG-002 (niepowiązane z pytaniem), SRC-0108
+- **OBECNIE:** „Badanie z osobami trenującymi pokazało, że dokładanie powtórzeń przy tym samym ciężarze daje podobny przyrost mięśni jak dokładanie ciężaru, a dokładanie ciężaru dało nieco większy wzrost siły maksymalnej.”
+- **PROBLEM:** Różnica w 1RM wynosiła 2,0 kg przy CI90% od −2,4 do 7,8 kg, czyli przedział obejmuje brak różnicy. CL-PROG-002 określa ją jako „o niepewnym znaczeniu praktycznym”, a IT-06 i IT-51 to zaznaczają. IT-05 podaje przewagę bez zastrzeżenia. Następne zdanie („wstępne dane z jednego, 8-tygodniowego badania”) częściowo łagodzi problem.
+- **PROPONOWANA KOREKTA:** „…a dokładanie ciężaru dało nieco większy, ale niepewny wzrost siły maksymalnej.” Dodać CL-PROG-002 do `claims`.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** dossier G3a (Plotkin: CI90% 1RM −2,4 do 7,8 kg); CLAIMS_AUDIT tabela 0.2.
+
+#### M1-02-P08 · LOW · IT-M1-02-06 · pole `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** CL-REPS-001 (C-02, C-03), SRC-0101, SRC-0103, SRC-0102
+- **OBECNIE:** „…przy seriach kończonych blisko upadku podobny przyrost dają bardzo różne liczby powtórzeń.”
+- **PROBLEM:** Dziedziczone z C-02 i C-03. Metaanaliza (Schoenfeld 2017) i RCT (Morton 2016) dotyczą serii do upadku. Przy ok. 30% 1RM seria przerwana przed upadkiem dawała mniejszą hipertrofię (Lasevicius 2022). „Podobny” oznacza tu brak istotnej różnicy, bez testu równoważności. W scenariuszu Oli (8-12 powtórzeń, umiarkowany ciężar) uogólnienie jest peryferyjne, dlatego LOW.
+- **PROPONOWANA KOREKTA:** „…przy seriach kończonych na upadku lub bardzo blisko niego podobny przyrost dawały w badaniach bardzo różne liczby powtórzeń (przy lekkich ciężarach seria musi dojść praktycznie do upadku).”
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-02, C-03; EXTRA.md (Lasevicius 2022, PMID 31895290).
+
+#### M1-02-P09 · MEDIUM · IT-M1-02-07 · pola `localizations.pl.option_texts.C.feedback`, `localizations.pl.w1.simple`, `localizations.pl.w1.expert` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** C: „…te same serie są teraz łatwe, więc sama regularność nie wystarcza do dalszego wzrostu.”; W1.simple: „Rozwiązaniem jest stopniowe podnoszenie wymagań…”; W1.expert: „Zasada progresywnego przeciążenia, zalecana w syntezach badań, każe podnosić wymagania w miarę adaptacji. Wystarczy progresja powtórzeń lub obciążenia w obecnych ćwiczeniach; zmiana całego planu nie usuwa przyczyny zastoju.”
+- **PROBLEM:** Konieczność („nie wystarcza”) i wystarczalność („Wystarczy”, „Rozwiązaniem jest”) są podane jako pewne. (1) Konieczność dziedziczy C-06: nie była testowana (SRC-0108 INDIRECT, ACSM – zalecenie). (2) „Wystarczy” wykracza poza dowody: żadne źródło nie testowało, czy sama progresja usuwa zastój, a sama baza (MC-402, MC-404) wymienia inne częste przyczyny zastoju (objętość, regenerację, żywienie, sen). W całym pytaniu brak informacji o ograniczonej podstawie empirycznej (brak W1/W2-owego zastrzeżenia, które mają IT-01, IT-03, IT-04). Klucz D pozostaje najlepszą odpowiedzią: rekomendacja jest rozsądna i zgodna z ACSM.
+- **PROPONOWANA KOREKTA:** C: „…więc sama regularność najpewniej nie wystarczy do dalszego wzrostu.” W1.simple: „Najprostszym pierwszym krokiem jest stopniowe podnoszenie wymagań…”. W1.expert: „Zasada progresywnego przeciążenia, zalecana w syntezach badań, każe podnosić wymagania w miarę adaptacji. Jest spójna z literaturą, choć rzadko testowano ją wprost. Pierwszym krokiem jest progresja powtórzeń lub obciążenia w obecnych ćwiczeniach, bo zmiana całego planu nie usuwa przyczyny zastoju. Jeśli mimo progresji postęp nie wraca, warto sprawdzić objętość, regenerację, żywienie i sen.” Analogicznie w EN („is enough” → „is the first step”).
+- **Pewność oceny:** umiarkowana-wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06; dossier G1, G3a; spójność z MC-402/MC-404.
+
+#### M1-02-P10 · MEDIUM · IT-M1-02-08 · pola `localizations.pl.w1.expert`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak twierdzenia (CL-PROG-003/CL-PROG-001 nie obejmują mechanizmu); SRC-0108, SRC-0100 nie dotyczą tej tezy
+- **OBECNIE:** W1.expert: „Liniowa progresja obciążenia działa krótko, w dużej mierze dzięki szybkiej poprawie techniki i koordynacji u początkujących.”; W2: „Dlaczego etap szybkiego dokładania się kończy? W pierwszych tygodniach siła rośnie w dużej mierze dzięki nauce ruchu: lepszej technice i koordynacji. To pozwala dokładać ciężar niemal co trening. Później wzrost siły coraz bardziej zależy od przyrostu mięśni, a to proces dużo wolniejszy.”
+- **PROBLEM:** Rdzeń wyjaśnienia w W2 opiera się na modelu, który nie ma w bazie ani twierdzenia, ani źródła. Część o wczesnych adaptacjach nerwowych jest zgodna z głównym nurtem [WIEDZA]. Teza „później siła coraz bardziej zależy od przyrostu mięśni” to klasyczny schemat, a nie zmierzona zależność, i jest przedmiotem otwartego sporu. Loenneke, Buckner, Dankel i Abe (Sports Med 2019; PMID 31020548) argumentują, że zmiany wielkości mięśnia nie przyczyniają się do zmian siły. Taber, Vigotsky, Nuckols i Haun (Sports Med 2019;49(7):993-997) uważają hipertrofię za przyczynę współdziałającą [SEARCH]. Poza tym koniec progresji liniowej ma też prostsze przyczyny: malejące przyrosty w miarę zbliżania się do bieżących możliwości i narastające zmęczenie. Nieudokumentowane, nieoczywiste zdanie mechanistyczne jest podane jako fakt, więc MEDIUM. Klucz B nie jest zagrożony.
+- **PROPONOWANA KOREKTA:** W2: „Dlaczego etap szybkiego dokładania się kończy? W pierwszych tygodniach duża część wzrostu siły to nauka ruchu: lepsza technika i koordynacja. To pozwala dokładać ciężar niemal co trening. Z czasem tego łatwego zapasu ubywa, a dalszy wzrost siły jest wolniejszy, bo zależy od wolniejszych adaptacji, m.in. od przyrostu mięśni (jak duży jest ich udział, wciąż się dyskutuje).” W1.expert: „Liniowa progresja obciążenia działa krótko; u początkujących w dużej mierze dzięki szybkiej nauce ruchu.” Dodać twierdzenie o adaptacjach nerwowych i morfologicznych ze źródłem przeglądowym i powiązać z pytaniem.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** WebSearch [https://pubmed.ncbi.nlm.nih.gov/31020548/ ; https://link.springer.com/article/10.1007/s40279-019-01107-8]; [WIEDZA] Folland i Williams 2007 (Sports Med).
+
+#### M1-02-P11 · LOW · IT-M1-02-08 · pola `localizations.pl.option_texts.B.feedback`, `localizations.pl.w1.apply`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak (praktyka trenerska); CL-PROG-003
+- **OBECNIE:** Klucz B: „Zostać przy tym ciężarze i dokładać powtórzenia, aż zrobi wszystkie serie”; W1.apply: „Gdy ciężar przestaje rosnąć co trening, zostań przy nim i dokładaj powtórzenia, a ciężar zwiększ dopiero po zrobieniu wszystkich serii.”
+- **PROBLEM:** Według kontekstu przy obecnym ciężarze Tomek zrobił 3 powtórzenia, a technika w ostatniej serii „się sypała”. Feedback i W1.apply nie mówią, by kończyć serię przed rozpadem techniki, ani nie wspominają o cofnięciu ciężaru o jeden skok, co jest powszechną praktyką trenerską. Dowody na związek rozpadu techniki z urazami są słabe, więc to kwestia ostrożności (przysiad ze sztangą, początkujący), a nie błąd klucza. B nadal jest najlepszą opcją.
+- **PROPONOWANA KOREKTA:** Feedback B: „…Teraz postępem jest także każde dodatkowe powtórzenie przy podobnym wysiłku i dobrej technice. Serię warto kończyć, zanim technika się rozpadnie, a jeśli obecny ciężar jest za duży na poprawne powtórzenia, można cofnąć się o jeden skok. Gdy zrobi 3 serie po 5 z dobrą techniką, może znów dołożyć ciężar.” W1.apply analogicznie.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA] praktyka trenerska; brak źródła w bazie.
+
+#### M1-02-P12 · MEDIUM · IT-M1-02-09 · pola `localizations.pl.option_texts.B.feedback`, `localizations.pl.option_texts.C.feedback`, `localizations.pl.w1.simple`, `localizations.pl.w1.expert` (analogicznie EN)
+- **Claim / source:** CL-REPS-001 (C-02, C-03), SRC-0101, SRC-0102, SRC-0103, SRC-0100
+- **OBECNIE:** B: „Badania pokazują jednak, że przy seriach kończonych blisko upadku lekkie ciężary i wysokie powtórzenia dają podobny przyrost mięśni jak ciężkie.”; C: „Przy seriach kończonych blisko upadku mięśnie rosną w szerokim zakresie powtórzeń, także przy 20 i więcej powtórzeniach w serii.”; W1.expert: „Metaanalizy pokazują podobną hipertrofię przy lekkich (od ok. 30% 1RM) i ciężkich obciążeniach, jeśli serie kończą się blisko upadku.”
+- **PROBLEM:** C-02 i C-03 są tu dziedziczone w pytaniu, którego scenariusz dotyczy właśnie lekkiego ciężaru i wysokich powtórzeń, więc problem nie jest peryferyjny. Metaanaliza Schoenfeld 2017 włączała wyłącznie serie do chwilowego upadku, a Morton 2016 stosował serie do upadku. Przy ok. 30% 1RM seria przerwana wyraźnie przed upadkiem dawała mniejszą hipertrofię niż seria do upadku (Lasevicius 2022). „Blisko upadku” przy lekkich ciężarach nie ma więc bezpośredniego wsparcia, a W1.expert błędnie opisuje kryterium metaanaliz. „Podobny” to brak istotnej różnicy w małych, krótkich badaniach, bez testu równoważności. Ania ma przy tym oceniać zapas przy 20-30 powtórzeniach, gdzie szacunki RIR są najmniej trafne (Halperin 2022), więc łatwo zatrzyma się za daleko od upadku.
+- **PROPONOWANA KOREKTA:** B: „…Badania pokazują jednak, że przy seriach kończonych na upadku lub tuż przed nim lekkie ciężary i wysokie powtórzenia dają przyrost mięśni zbliżony do ciężkich.” W1.expert: „Metaanalizy nie wykazały istotnej różnicy w hipertrofii między lekkimi (od ok. 30% 1RM) a ciężkimi obciążeniami, gdy serie kończono na upadku. Przy lekkich ciężarach seria powinna dojść praktycznie do upadku (0-1 powtórzenie w zapasie).” C i W1.simple analogicznie („bardzo blisko upadku”, „praktycznie do upadku”).
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-02, C-03; dossier G1 (Schoenfeld 2017 – kryterium upadku); EXTRA.md (Lasevicius 2022, Halperin 2022).
+
+#### M1-02-P13 · MEDIUM · IT-M1-02-09 · pole `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** CL-REPS-001 (applicability), SRC-0101, SRC-0102
+- **OBECNIE:** „Do siły maksymalnej lepsze są większe ciężary, ale celem Ani jest przyrost mięśni, a do tego lekkie hantle wystarczą.”
+- **PROBLEM:** „Wystarczą” to ekstrapolacja przedstawiona jako fakt. (1) Dla ok. 30% 1RM badań jest mało, a poniżej ok. 30% 1RM bardzo mało (applicability CL-REPS-001). Para hantli 2×10 kg w przysiadzie może u trenującej osoby być blisko tego progu albo poniżej niego, zwłaszcza w miarę postępów. (2) Badania trwały 6-12 tygodni i brak danych, że długotrwała progresja wyłącznie przez powtórzenia z tym samym lekkim ciężarem (serie powyżej 30 powtórzeń) wystarcza. W2 sam proponuje wersję jednonóż, która w praktyce zwiększa względne obciążenie. Pominięte ograniczenie, więc MEDIUM.
+- **PROPONOWANA KOREKTA:** „…ale celem Ani jest przyrost mięśni, a do tego lekkie hantle mogą wystarczyć, jeśli serie będą kończyć się tuż przed upadkiem. Gdy powtórzeń robi się bardzo dużo (np. ponad 30), lepiej zwiększyć trudność ćwiczenia, np. przejść na wersję na jednej nodze, bo dla bardzo lekkich obciążeń badań jest mało.”
+- **Pewność oceny:** umiarkowana-wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-02, C-03; applicability CL-REPS-001; EXTRA.md (Lasevicius 2022).
+
+#### M1-02-P14 · MEDIUM · IT-M1-02-10 · pola `localizations.pl.w1.expert`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak twierdzenia dla mechanizmu; CL-RATE-002 (C-15) niepowiązane; SRC-0108, SRC-0100
+- **OBECNIE:** W1.expert: „Liniowa progresja obciążenia to krótki etap, oparty w dużej mierze na szybkiej poprawie techniki i koordynacji.”; W2: „U osób zaczynających trening siła rośnie w pierwszych tygodniach w dużej mierze dzięki nauce ruchu: lepszej technice i koordynacji. (…) Później siła coraz bardziej zależy od przyrostu mięśni, a ten jest powolny: u osób trenujących od lat postępy ocenia się raczej w miesiącach niż w tygodniach.”
+- **PROBLEM:** Ten sam nieudokumentowany i sporny model co w P10 (Loenneke i in. 2019 vs Taber i in. 2019). Dodatkowo zdanie o osobach trenujących od lat korzysta z CL-RATE-002, które nie jest powiązane z pytaniem i ma problem C-15 (teza „dużo wolniej” opiera się na jednym małym, nierandomizowanym badaniu). Część numeryczna jest poprawna: 2,5 kg × 156 = 390 kg; 5 lb × 156 = 780 lb ≈ 354 kg mieści się w przedziale full [350, 400]; partial [300-349] i [401-450] są rozłączne; feedback below/above jest spójny.
+- **PROPONOWANA KOREKTA:** Jak w P10. W1.expert: „Liniowa progresja obciążenia to krótki etap; u początkujących w dużej mierze dzięki szybkiej nauce ruchu.” W2: „…Z czasem dalszy wzrost siły jest wolniejszy, bo zależy od wolniejszych adaptacji, m.in. od przyrostu mięśni (ich udział wciąż się dyskutuje). U osób trenujących od lat postępy lepiej oceniać w skali miesięcy.” Dodać CL-RATE-002 do `claims`.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** WebSearch (jak P10); CLAIMS_AUDIT C-15; obliczenia własne.
+
+#### M1-02-P15 · MEDIUM · IT-M1-02-51 · pola `localizations.pl.w1.expert`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** W1.expert: „Adaptacja zmniejsza względną trudność stałego bodźca, więc do dalszych przyrostów masy i siły potrzebne jest stopniowe zwiększanie wymagań.”; W2: „Progresywne przeciążenie nie jest osobną metodą, tylko warunkiem długoterminowych postępów.”
+- **PROBLEM:** Pytanie przejmuje C-06 w najsilniejszej formie („warunkiem”, „potrzebne jest”). Stem pyta, co jest „zgodne z badaniami”, więc sugeruje, że konieczność progresji wykazano w badaniach. Tak nie jest: brak długich RCT porównujących trening z progresją i bez niej, SRC-0108 to wsparcie INDIRECT, a ACSM daje zalecenie. W pytaniu nie ma żadnego zastrzeżenia.
+- **PROPONOWANA KOREKTA:** W1.expert: „…więc do dalszych przyrostów masy i siły zaleca się stopniowe zwiększanie wymagań. Zasada jest zgodna z literaturą, choć jej konieczność rzadko testowano wprost.” W2: „Progresywne przeciążenie nie jest osobną metodą, tylko zasadą, na której opierają się zalecenia dotyczące długoterminowych postępów.” Analogicznie w EN („is required” / „the condition for” → „is recommended” / „the principle behind”).
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06; dossier G3a, G1.
+
+#### M1-02-P16 · LOW · IT-M1-02-51 · pole `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak twierdzenia
+- **OBECNIE:** „Na początku ciężar rośnie szybko, bo duża część poprawy to nauka ruchu.”
+- **PROBLEM:** Jak P02: nieudokumentowane w bazie, merytorycznie zgodne z głównym nurtem [WIEDZA].
+- **PROPONOWANA KOREKTA:** Powiązać z twierdzeniem o adaptacjach nerwowych (patrz P02); brzmienie może zostać.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA].
+
+#### M1-02-P17 · LOW · IT-M1-02-51 · pole `localizations.en.w2`
+- **Claim / source:** CL-PROG-003 (arytmetyka jak w CL-DPRG-003)
+- **OBECNIE:** „…adding weight every session becomes impossible: 5 lb (2.5 kg) three times a week would add about 860 lb (390 kg) in a year.”
+- **PROBLEM:** W EN jednostką podstawową jest 5 lb, a 5 lb × 156 = 780 lb (ok. 354 kg), nie 860 lb. 860 lb to przeliczenie 390 kg (2,5 kg × 156). Liczby są te same co w PL, ale rachunek w EN jest wewnętrznie niespójny (ok. 10%). Przekaz się nie zmienia. IT-10 poprawnie podaje zakres 780-860 lb.
+- **PROPONOWANA KOREKTA:** „…2.5 kg (about 5 lb) three times a week would add about 390 kg (about 860 lb) in a year” (kolejność jak w PL) albo „…about 780-860 lb (350-390 kg)”.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** obliczenie własne.
+
+#### M1-02-P18 · MEDIUM · IT-M1-02-61 · pola `localizations.pl.option_texts.A.feedback`, `localizations.pl.option_texts.B.feedback`, `localizations.pl.w1.expert`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** CL-RIR-001 (SRC-0107, SRC-0106, SRC-0105); CL-RIR-002 (SRC-0106, C-29) użyte, ale niepowiązane
+- **OBECNIE:** A: „Ta sama praca wykonana z większym zapasem oznacza jednak, że Marta jest silniejsza…”; W1.expert: „Wzrost zapasu przy tej samej pracy oznacza wzrost wydolności.”; W2: „Dziś te same serie kończą się ok. 3 powtórzenia przed upadkiem, więc jej możliwości wzrosły o ok. 2 powtórzenia. (…) Zapas warto oceniać uczciwie, bo ludzie zwykle zaniżają go o ok. jedno powtórzenie.”
+- **PROBLEM:** W scenariuszu zapas podano jako fakt, więc klucz B jest poprawny i najlepszy. Pytanie uczy jednak praktycznej reguły (W1.apply: zapisuj zapas, żeby wykrywać postęp), a w praktyce RIR jest szacunkiem. W metaanalizie Halperin 2022 średni błąd wynosił ok. 0,95 powtórzenia (95% CI 0,17-1,73) przy ogromnej niejednorodności (I² ≈ 98%), a trafność spada wraz z odległością od upadku, więc „3 w zapasie” jest mniej pewne niż „1”. Różnica 2 powtórzeń z jednej sesji mieści się więc w typowym błędzie szacunku i w zmienności z dnia na dzień. „Oznacza” i „wzrosły o ok. 2 powtórzenia” to nadmierna pewność i precyzja. Zdanie o zaniżaniu opisuje tylko średnie przesunięcie, które przy porównaniu tej samej osoby częściowo się znosi. Nie zastępuje informacji o błędzie losowym, a „zwykle” powinno brzmieć „średnio” (duża rozpiętość).
+- **PROPONOWANA KOREKTA:** W2: „…Dziś te same serie kończą się ok. 3 powtórzenia przed upadkiem, więc jej możliwości najpewniej wzrosły. Zapas to jednak szacunek: ludzie mylą się w nim średnio o ok. jedno powtórzenie, a różnice między osobami i treningami są duże, zwłaszcza dalej od upadku. Zmianę o 1-2 powtórzenia warto więc potwierdzić na kolejnych treningach, najprościej dokładając powtórzenia albo ciężar i sprawdzając, czy seria nadal kończy się z podobnym zapasem.” W1.expert: „Wzrost zapasu przy tej samej pracy, jeśli utrzymuje się na kolejnych treningach, najpewniej oznacza wzrost możliwości.” Feedback A: „…oznacza najpewniej, że Marta jest silniejsza…”. Dodać CL-RIR-002 do `claims`.
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** CLAIMS_AUDIT tabela 0.2 (Halperin 2022), C-29; EXTRA.md.
+
+#### M1-02-P19 · LOW · IT-M1-02-71 · pole `localizations.pl.w1.expert` (analogicznie EN)
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** „Stopniowe zwiększanie wymagań jest warunkiem dalszych przyrostów, ale nie musi oznaczać większego ciężaru na każdym treningu.”
+- **PROBLEM:** C-06 w pojedynczym zdaniu, peryferyjnym wobec głównej tezy pytania (więcej powtórzeń to też postęp), dlatego LOW.
+- **PROPONOWANA KOREKTA:** „Stopniowe zwiększanie wymagań to zalecana droga do dalszych przyrostów, ale nie musi oznaczać…”.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06.
+
+#### M1-02-P20 · LOW · IT-M1-02-71 · pola `localizations.pl.option_texts.B.feedback`, `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** CL-REPS-001 (C-02, C-03), SRC-0101, SRC-0103
+- **OBECNIE:** B: „Gdy serie kończą się blisko upadku, podobny przyrost dają jednak zarówno serie po 6-12, jak i po 20 i więcej powtórzeń.”; W2: „…gdy serie kończą się blisko upadku, podobny przyrost dają serie po 6-12 i po 20 i więcej powtórzeń.”
+- **PROBLEM:** Jak P08. W scenariuszu (15 powtórzeń, umiarkowany ciężar) problem jest peryferyjny, dlatego LOW.
+- **PROPONOWANA KOREKTA:** „Gdy serie kończą się na upadku lub bardzo blisko niego, w badaniach podobny przyrost dawały…”.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-02, C-03.
+
+#### M1-02-P21 · LOW · IT-M1-02-71 · pole `localizations.pl.option_texts.D.feedback` (analogicznie EN)
+- **Claim / source:** CL-CONS-001 (C-07), niepowiązane z pytaniem; SRC-0102, SRC-0100
+- **OBECNIE:** „Różnice między rozsądnymi programami są jednak zwykle niewielkie, a plan Oli nadal działa…”
+- **PROBLEM:** Dziedziczone z C-07. Dla przyrostu masy teza jest zgodna ze źródłami, ale dla siły maksymalnej różnice nie są niewielkie (ciężar ≥80% 1RM, ACSM 2026, Currier 2023). Kontekst nie precyzuje celu Oli. Dotyczy dystraktora, dlatego LOW.
+- **PROPONOWANA KOREKTA:** „Różnice między rozsądnymi programami w przyroście mięśni są jednak zwykle niewielkie…”. Dodać CL-CONS-001 do `claims`.
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-07; dossier G1.
+
+#### M1-02-P22 · LOW · IT-M1-02-71 · pole `localizations.pl.w2` (analogicznie EN)
+- **Claim / source:** brak twierdzenia
+- **OBECNIE:** „U początkujących ciężar rośnie szybko, bo poprawia się technika i koordynacja, ale po kilku miesiącach tempo naturalnie spada.”
+- **PROBLEM:** Jak P02 i P06: mechanizm i czas trwania fazy są nieudokumentowane w bazie, choć zgodne z głównym nurtem [WIEDZA].
+- **PROPONOWANA KOREKTA:** Powiązać z twierdzeniem o adaptacjach nerwowych. „…bo duża część wczesnej poprawy to nauka ruchu; później tempo naturalnie spada.”
+- **Pewność oceny:** umiarkowana
+- **Weryfikacja:** [WIEDZA].
+
+**Uwagi informacyjne (bez severity, nie liczone):**
+- Powiązania `claims` są niepełne w całej karcie. Pytania wykorzystują treści twierdzeń, których nie wymieniają: CL-EFF-001 (IT-01, -02, -07, -09, -61), CL-TENS-001/-003 (pompa: IT-03, -06, -09), CL-DOMS-001 (zakwasy: IT-02, -03, -04, -06, -51, -61), CL-TENS-002 (hormony: IT-04, -06), CL-CONF-001 (zaskakiwanie mięśni: IT-01, -04, -07, -51), CL-DOSE-001 (malejące korzyści z serii: IT-02), CL-DPRG-001/-003 (podwójna progresja, arytmetyka: IT-02, -05, -07, -08, -10, -51, -71), CL-REPS-002 (IT-06, -09), CL-RATE-002 (IT-04, -10), CL-RIR-002 (IT-61), CL-CONS-001 (IT-71), CL-REST-* (IT-09 D). Skutek: rewizja tych twierdzeń (np. C-04 dla CL-DOMS-001, C-07, C-15) nie oznaczy tych pytań do przeglądu.
+- IT-03 nie ma pola `w2` (para PAIR-M1-02-01, krok 1). Nie jest to błąd naukowy.
+- IT-71: feedback klucza C odwołuje się do „górnej granicy zakresu” (10-15), której nie ma w kontekście. Zakres pojawia się dopiero w W2. Nie zmienia klucza.
+- IT-04: klucz B jest najlepszy spośród opcji, ale spowolnienie przyrostów ma też inne mechanizmy (np. osłabienie odpowiedzi anabolicznej w miarę treningu; przegląd „The Plateau in Muscle Growth with Resistance Training…”, Sports Med [SEARCH – tytuł]). W2 częściowo to uwzględnia („przyrosty z czasem naturalnie zwalniają nawet przy dobrej progresji”).
+- Wersje PL/EN: poza P17 nie stwierdzono zmian siły twierdzeń, liczb ani klucza. W IT-09 C w EN jest „much closer” zamiast „bliżej”; to bez znaczenia merytorycznego.
+- Liczby i przeliczenia sprawdzone: 2,5 kg × 156 = 390 kg ≈ 860 lb; 5 lb × 156 = 780 lb ≈ 354 kg; 2,5 kg × 104 = 260 kg ≈ 573 lb (IT-08); 10→12 kg = +20% (IT-71); 12 kg ≈ 26 lb, 10 kg ≈ 22 lb, 18 kg ≈ 40 lb. Wszystkie są poprawne poza P17.
+
+### Karta pojęcia i błędne przekonania
+
+#### M1-02-K01 · MEDIUM · KC-M1-02 · pole `card.pl` / `card.en`
+- **Claim / source:** CL-PROG-001 (C-06), SRC-0100, SRC-0108
+- **OBECNIE:** „Dlatego trening musi stopniowo stawiać większe wymagania.” / „That is why training has to ask a little more over time.”
+- **PROBLEM:** Główna teza karty podaje konieczność progresji jako pewnik, bez żadnego zastrzeżenia (dziedziczone z C-06). Karta jest podstawowym tekstem nauczającym dla wszystkich 13 pytań. Poza tym karta jest poprawna: mechanizm adaptacji, trzy dźwignie, spowolnienie tempa i zapisywanie ciężaru oraz powtórzeń są zgodne z dowodami i dobrą praktyką.
+- **PROPONOWANA KOREKTA:** „Dlatego zaleca się, żeby trening stopniowo stawiał większe wymagania. To zasada zgodna z badaniami, choć rzadko testowana wprost.” Analogicznie w EN („That is why training is recommended to ask a little more over time; the principle fits the research, though it has rarely been tested directly.”).
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06.
+
+#### M1-02-K02 · LOW · MC-610 · pole `refutation.pl` / `refutation.en`
+- **Claim / source:** CL-PROG-001 (C-06)
+- **OBECNIE:** „Regularność jest podstawą, ale do dalszego wzrostu trzeba stopniowo zwiększać wymagania: ciężar, powtórzenia albo serie.”
+- **PROBLEM:** C-06, czyli konieczność podana jako pewnik. Etykieta „błędne przekonanie” dla tezy „wystarczy powtarzać ten sam trening” (ten sam ciężar i te same powtórzenia) jest obronialna mechanistycznie i zgodna z zaleceniami. Why_popular jest poprawne i uczciwie oddaje ziarno prawdy (ACSM 2026: „consistency over perfection”).
+- **PROPONOWANA KOREKTA:** „…ale do dalszego wzrostu zaleca się stopniowo zwiększać wymagania: ciężar, powtórzenia albo serie.”
+- **Pewność oceny:** wysoka
+- **Weryfikacja:** CLAIMS_AUDIT C-06; dossier G1 (komunikat ACSM).
+
+**MC-102:** brak istotnych problemów. Refutation jest zgodna z Plotkin 2022 („w badaniu z osobami trenującymi”) i nie przecenia wyniku.
+
+**MC powiązane przez opcje (spoza karty) – tylko sygnalizacja, ocena należy do partii macierzystych, nie liczone:**
+- MC-105 (KC-M1-04), refutation: „kończeniem serii kilka powtórzeń wcześniej” dziedziczy C-05 („kilka” szersze niż dane).
+- MC-401 (KC-M4-03): why_popular przypisuje poprawę motywacji zmienności „zaplanowanej”, a wykazano ją dla zmienności losowej (C-16). Refutation („zbyt częsta rotacja może wręcz osłabiać efekty”) opiera się na słabych dowodach i jest wewnętrznie niespójna z poprzednim zdaniem (losowa zmiana dawała podobny przyrost).
+- MC-103 (KC-M1-03): „20-30 powtórzeń… blisko upadku” dziedziczy C-02.
+- MC-108 (KC-M1-06): „różnice między programami były zwykle niewielkie” dziedziczy C-07 (siła).
+- MC-101 (KC-M1-01): pomija dowody eksperymentalne za i przeciw (C-01), ale sama teza jest poprawna.
+- MC-404 (KC-M4-01): „Zbliżanie się do granicy możliwości trwa zwykle wiele lat” nie ma źródła w bazie.
+- MC-109, MC-100, MC-206, MC-300, MC-402: z perspektywy tej partii brak uwag.
+
+### Podsumowanie partii
+- Pytania: PASS 0, PASS WITH NOTES 7, REVISION REQUIRED 6, FAIL 0, UNVERIFIED 0 (razem 13)
+- Problemy (tylko w pytaniach): CRITICAL 0, HIGH 0, MEDIUM 7, LOW 15
+- Problemy w karcie/MC (osobno): CRITICAL 0, HIGH 0, MEDIUM 1, LOW 1
+- Ostatnie ID w partii: IT-M1-02-71

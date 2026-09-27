@@ -6,10 +6,10 @@ Raport: `quality/reviews/mythlift-audyt-naukowy/RAPORT_WERYFIKACJI_NAUKOWEJ.md` 
 ## Stan
 
 - Status: W TOKU
-- Ostatnia zakończona partia dopisana do raportu: **0 (źródła + twierdzenia)**
-- Ostatnie zakończone ID pytania: brak
-- Następny krok: partia 1 — KC-M1-01 (pierwsze ID: IT-M1-01-01)
-- Partie ukończone i przejrzane, czekające na dopisanie w kolejności (pliki w `materialy_robocze/partie_gotowe/`): 2 (KC-M1-02), 22 (KC-M5-04), 5 (KC-M1-05), 4 (KC-M1-04), 6 (KC-M1-06). Liczniki poniżej obejmują tylko partie dopisane do raportu.
+- Ostatnia zakończona partia dopisana do raportu: **2 — KC-M1-02** (partia 0 – źródła i twierdzenia – również zapisana)
+- Ostatnie zakończone ID pytania: **IT-M1-02-71**
+- Następny krok: partia 3 — KC-M1-03
+- Partie ukończone i przejrzane, czekające na dopisanie w kolejności (pliki w `materialy_robocze/partie_gotowe/`): 22 (KC-M5-04), 5 (KC-M1-05), 4 (KC-M1-04), 6 (KC-M1-06). Liczniki poniżej obejmują tylko partie dopisane do raportu.
 - Materiały robocze (dossier źródeł, instrukcje, gotowe partie): `materialy_robocze/` (patrz README)
 
 ## Kolejność partii
@@ -23,32 +23,32 @@ Raport: `quality/reviews/mythlift-audyt-naukowy/RAPORT_WERYFIKACJI_NAUKOWEJ.md` 
 | Status pytań | Liczba |
 |---|---|
 | PASS | 0 |
-| PASS WITH NOTES | 0 |
-| REVISION REQUIRED | 0 |
+| PASS WITH NOTES | 11 |
+| REVISION REQUIRED | 17 |
 | FAIL | 0 |
 | UNVERIFIED | 0 |
-| **Razem ocenionych pytań** | 0 / 244 |
+| **Razem ocenionych pytań** | 28 / 244 |
 
 | Severity problemów w pytaniach | Liczba |
 |---|---|
 | CRITICAL | 0 |
 | HIGH | 0 |
-| MEDIUM | 0 |
-| LOW | 0 |
+| MEDIUM | 20 |
+| LOW | 33 |
 
 | Severity problemów w twierdzeniach i rekordach źródeł (partia 0) | Twierdzenia (C-xx) | Źródła (S-xx) |
 |---|---|---|
 | CRITICAL | 0 | 0 |
 | HIGH | 1 | 0 |
-| MEDIUM | 24 | 3 |
+| MEDIUM | 25 (w tym C-45 dopisane po partii 1) | 3 |
 | LOW | 19 | 5 |
 
 | Severity problemów w kartach pojęć i błędnych przekonaniach | Liczba |
 |---|---|
 | CRITICAL | 0 |
 | HIGH | 0 |
-| MEDIUM | 0 |
-| LOW | 0 |
+| MEDIUM | 2 |
+| LOW | 4 |
 
 Źródła: 48/48 publikacji zweryfikowane częściowo (bibliografia + wyniki na poziomie abstraktu), 0/48 z pełnego tekstu.
 
