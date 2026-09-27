@@ -279,7 +279,7 @@ MC-640, MC-643 i MC-644 nie mają istotnych problemów. MC-640: kierunki skal i 
 ### Podsumowanie partii
 - Pytania: PASS 4, PASS WITH NOTES 6, REVISION REQUIRED 3, FAIL 0, UNVERIFIED 0 (razem 13).
 - Problemy (tylko w pytaniach): CRITICAL 0, HIGH 0, MEDIUM 3 (P03, P06, P12), LOW 12 (P01, P02, P04, P05, P07, P08, P09, P10, P11, P13, P14, P15).
-- Problemy w karcie/MC (osobno): CRITICAL 0, HIGH 0, MEDIUM 2 (P16 karta, P21 MC-302), LOW 6 (P17, P18, P19, P20, P22, P23).
+- Problemy w karcie/MC (osobno): CRITICAL 0, HIGH 0, MEDIUM 1 (P16 karta), LOW 4 (P17, P18, P19, P20). Uwaga recenzenta głównego: P21 (MC-302, karta KC-M3-02), P22 i P23 (MC-105, MC-106, karta KC-M1-04) dotyczą błędnych przekonań należących do innych kart – są liczone w partiach macierzystych (13 i 4), aby uniknąć podwójnego liczenia.
 - Nowe ustalenia weryfikacyjne dla audytu twierdzeń (Halperin 2022, streszczenie abstraktu w wynikach wyszukiwarki, nie pełny tekst):
   - efekt „późniejszych serii” potwierdzony jako trywialny (β = −0,07; 95% CI −0,14 do −0,005);
   - brak wpływu stażu potwierdzony w źródłach wtórnych, więc C-29 można w dużej mierze zamknąć;
