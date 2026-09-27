@@ -7,3 +7,4 @@
 - MC-404 (KC-M4-01, partia 16): partia 2 – „Zbliżanie się do granicy możliwości trwa zwykle wiele lat” – brak źródła.
 - MC-103 (KC-M1-03, partia 3): partia 2 – „20-30 powtórzeń… blisko upadku” dziedziczy C-02.
 - MC-108 (KC-M1-06): partia 2 sygnalizuje C-07; partia 6 (macierzysta) nie stwierdziła problemu – do rozstrzygnięcia w przebiegu adwersaryjnym.
+- MC-401: partia 7 P35 – MEDIUM (jak partia 6 P24).

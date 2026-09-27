@@ -9,7 +9,7 @@ Raport: `quality/reviews/mythlift-audyt-naukowy/RAPORT_WERYFIKACJI_NAUKOWEJ.md` 
 - Ostatnia zakończona partia dopisana do raportu: **2 — KC-M1-02** (partia 0 – źródła i twierdzenia – również zapisana)
 - Ostatnie zakończone ID pytania: **IT-M1-02-71**
 - Następny krok: partia 3 — KC-M1-03
-- Partie ukończone i przejrzane, czekające na dopisanie w kolejności (pliki w `materialy_robocze/partie_gotowe/`): 22 (KC-M5-04), 5 (KC-M1-05), 4 (KC-M1-04), 6 (KC-M1-06). Liczniki poniżej obejmują tylko partie dopisane do raportu.
+- Partie ukończone i przejrzane, czekające na dopisanie w kolejności (pliki w `materialy_robocze/partie_gotowe/`): 22 (KC-M5-04), 5 (KC-M1-05), 4 (KC-M1-04), 6 (KC-M1-06), 7 (KC-M1-07). Liczniki poniżej obejmują tylko partie dopisane do raportu.
 - Materiały robocze (dossier źródeł, instrukcje, gotowe partie): `materialy_robocze/` (patrz README)
 
 ## Kolejność partii
